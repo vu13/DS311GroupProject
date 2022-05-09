@@ -1,0 +1,2520 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Merge_Data_CPI (NefsMergedData)' inline='true' name='federated.0xf4738186lj6q1cr0fm11mkj9b1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NefsMergedData' name='excel-direct.1kca8ru0c0sxa910uwamy0z1ofnb'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Vu Truong/Desktop/DS311-Technologies-in-Data-Analytic/ProjectData/Merge_Data_DSGP311.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1kca8ru0c0sxa910uwamy0z1ofnb' name='Merge_Data_CPI' table='[Merge_Data_CPI$]' type='table'>
+          <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='CASE_STATUS' ordinal='0' />
+            <column datatype='date' name='CASE_RECEIVED_DATE' ordinal='1' />
+            <column datatype='date' name='DECISION_DATE' ordinal='2' />
+            <column datatype='string' name='EMPLOYER_NAME' ordinal='3' />
+            <column datatype='real' name='PREVAILING_WAGE_SUBMITTED' ordinal='4' />
+            <column datatype='string' name='PREVAILING_WAGE_SUBMITTED_UNIT' ordinal='5' />
+            <column datatype='real' name='PAID_WAGE_SUBMITTED' ordinal='6' />
+            <column datatype='string' name='PAID_WAGE_SUBMITTED_UNIT' ordinal='7' />
+            <column datatype='string' name='JOB_TITLE' ordinal='8' />
+            <column datatype='string' name='WORK_CITY' ordinal='9' />
+            <column datatype='string' name='PREVAILING_WAGE_SOC_TITLE' ordinal='10' />
+            <column datatype='string' name='WORK_STATE' ordinal='11' />
+            <column datatype='string' name='FULL_TIME_POSITION_Y_N' ordinal='12' />
+            <column datatype='string' name='VISA_CLASS' ordinal='13' />
+            <column datatype='real' name='PREVAILING_WAGE_PER_YEAR' ordinal='14' />
+            <column datatype='real' name='PAID_WAGE_PER_YEAR' ordinal='15' />
+            <column datatype='string' name='JOB_TITLE_SUBGROUP' ordinal='16' />
+            <column datatype='string' name='STATE' ordinal='17' />
+            <column datatype='integer' name='ANNUAL_MEAN_WAGE_ALL_FIELDS' ordinal='18' />
+            <column datatype='integer' name='MEDIAN_MONTHLY_RENT' ordinal='19' />
+            <column datatype='real' name='VALUE_OF_DOLLAR' ordinal='20' />
+            <column datatype='real' name='CPI (2018)' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1kca8ru0c0sxa910uwamy0z1ofnb' name='Merge_Data_CPI' table='[Merge_Data_CPI$]' type='table'>
+          <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='CASE_STATUS' ordinal='0' />
+            <column datatype='date' name='CASE_RECEIVED_DATE' ordinal='1' />
+            <column datatype='date' name='DECISION_DATE' ordinal='2' />
+            <column datatype='string' name='EMPLOYER_NAME' ordinal='3' />
+            <column datatype='real' name='PREVAILING_WAGE_SUBMITTED' ordinal='4' />
+            <column datatype='string' name='PREVAILING_WAGE_SUBMITTED_UNIT' ordinal='5' />
+            <column datatype='real' name='PAID_WAGE_SUBMITTED' ordinal='6' />
+            <column datatype='string' name='PAID_WAGE_SUBMITTED_UNIT' ordinal='7' />
+            <column datatype='string' name='JOB_TITLE' ordinal='8' />
+            <column datatype='string' name='WORK_CITY' ordinal='9' />
+            <column datatype='string' name='PREVAILING_WAGE_SOC_TITLE' ordinal='10' />
+            <column datatype='string' name='WORK_STATE' ordinal='11' />
+            <column datatype='string' name='FULL_TIME_POSITION_Y_N' ordinal='12' />
+            <column datatype='string' name='VISA_CLASS' ordinal='13' />
+            <column datatype='real' name='PREVAILING_WAGE_PER_YEAR' ordinal='14' />
+            <column datatype='real' name='PAID_WAGE_PER_YEAR' ordinal='15' />
+            <column datatype='string' name='JOB_TITLE_SUBGROUP' ordinal='16' />
+            <column datatype='string' name='STATE' ordinal='17' />
+            <column datatype='integer' name='ANNUAL_MEAN_WAGE_ALL_FIELDS' ordinal='18' />
+            <column datatype='integer' name='MEDIAN_MONTHLY_RENT' ordinal='19' />
+            <column datatype='real' name='VALUE_OF_DOLLAR' ordinal='20' />
+            <column datatype='real' name='CPI (2018)' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V10001:no:A1:V10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CASE_STATUS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CASE_STATUS]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>CASE_STATUS</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CASE_RECEIVED_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[CASE_RECEIVED_DATE]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>CASE_RECEIVED_DATE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DECISION_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DECISION_DATE]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>DECISION_DATE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMPLOYER_NAME</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EMPLOYER_NAME]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>EMPLOYER_NAME</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREVAILING_WAGE_SUBMITTED</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PREVAILING_WAGE_SUBMITTED]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PREVAILING_WAGE_SUBMITTED</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREVAILING_WAGE_SUBMITTED_UNIT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PREVAILING_WAGE_SUBMITTED_UNIT]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PREVAILING_WAGE_SUBMITTED_UNIT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAID_WAGE_SUBMITTED</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PAID_WAGE_SUBMITTED]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PAID_WAGE_SUBMITTED</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAID_WAGE_SUBMITTED_UNIT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PAID_WAGE_SUBMITTED_UNIT]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PAID_WAGE_SUBMITTED_UNIT</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JOB_TITLE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[JOB_TITLE]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>JOB_TITLE</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORK_CITY</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WORK_CITY]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>WORK_CITY</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREVAILING_WAGE_SOC_TITLE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PREVAILING_WAGE_SOC_TITLE]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PREVAILING_WAGE_SOC_TITLE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORK_STATE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WORK_STATE]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>WORK_STATE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FULL_TIME_POSITION_Y_N</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FULL_TIME_POSITION_Y_N]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>FULL_TIME_POSITION_Y_N</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VISA_CLASS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[VISA_CLASS]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>VISA_CLASS</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREVAILING_WAGE_PER_YEAR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PREVAILING_WAGE_PER_YEAR]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PREVAILING_WAGE_PER_YEAR</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAID_WAGE_PER_YEAR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PAID_WAGE_PER_YEAR]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>PAID_WAGE_PER_YEAR</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JOB_TITLE_SUBGROUP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[JOB_TITLE_SUBGROUP]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>JOB_TITLE_SUBGROUP</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STATE]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANNUAL_MEAN_WAGE_ALL_FIELDS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ANNUAL_MEAN_WAGE_ALL_FIELDS]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>ANNUAL_MEAN_WAGE_ALL_FIELDS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIAN_MONTHLY_RENT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MEDIAN_MONTHLY_RENT]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>MEDIAN_MONTHLY_RENT</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VALUE_OF_DOLLAR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[VALUE_OF_DOLLAR]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>VALUE_OF_DOLLAR</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPI (2018)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPI (2018)]</local-name>
+            <parent-name>[Merge_Data_CPI]</parent-name>
+            <remote-alias>CPI (2018)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Annual Mean Wage All Fields' datatype='integer' name='[ANNUAL_MEAN_WAGE_ALL_FIELDS]' role='measure' type='quantitative' />
+      <column caption='Case Received Date' datatype='date' name='[CASE_RECEIVED_DATE]' role='dimension' type='ordinal' />
+      <column caption='Case Status' datatype='string' name='[CASE_STATUS]' role='dimension' type='nominal' />
+      <column caption='Cpi (2018)' datatype='real' name='[CPI (2018)]' role='measure' type='quantitative' />
+      <column caption='Higher/Lower Salaries Calc' datatype='string' name='[Calculation_1048212843510468608]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF AVG([PAID_WAGE_PER_YEAR]) &gt;=90000&#13;&#10;THEN &quot;High AVG Salary&quot;&#13;&#10;ELSEIF  AVG([PAID_WAGE_PER_YEAR])&lt;=60000  &#13;&#10;THEN &quot;Low AVG Salary&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Low/High Exclusion Calc' datatype='boolean' name='[Calculation_1048212843540492289]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='AVG([PAID_WAGE_PER_YEAR])&lt;100000 AND  AVG([PAID_WAGE_PER_YEAR])&gt;60000&#13;&#10;//T/F for range within/outside' />
+      </column>
+      <column caption='Decision Date' datatype='date' name='[DECISION_DATE]' role='dimension' type='ordinal' />
+      <column caption='Employer Name' datatype='string' name='[EMPLOYER_NAME]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;TWO SIGMA INVESTMENTS LLC&quot;' value='2 SIGMA INVESTMENTS LLC' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Employer Name (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[EMPLOYER_NAME]' new-bin='true'>
+          <bin default-name='false' value='&quot;3A SOFT INC&quot;'>
+            <value>&quot;3A SOFT INC&quot;</value>
+            <value>&quot;3A SOFT INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;3DM&quot;'>
+            <value>&quot;3DM PAYROLL INC&quot;</value>
+            <value>&quot;3DM PAYROLL INC.&quot;</value>
+            <value>&quot;3DM PAYROLL, INC.&quot;</value>
+            <value>&quot;3DM SYSTEMS, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;3EDGEUSAGROUP LLC&quot;'>
+            <value>&quot;3EDGEUSAGROUP LLC&quot;</value>
+            <value>&quot;3EGEUSAGROUP LLC&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;3H TECHNOLOGY LLC&quot;'>
+            <value>&quot;3H TECHNOLOGY LLC&quot;</value>
+            <value>&quot;3H TECHNOLOGY, LLC&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;3I INFOTECH INC&quot;'>
+            <value>&quot;3I INFOTECH INC.&quot;</value>
+            <value>&quot;3I INFOTECH, INC&quot;</value>
+            <value>&quot;3I INFOTECH, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;ADROIT ASSOCIATION INC&quot;'>
+            <value>&quot;ADROIT ASSOCIATES INC&quot;</value>
+            <value>&quot;ADROIT ASSOCIATES, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;ADROIX CORP&quot;'>
+            <value>&quot;ADROIX CORP&quot;</value>
+            <value>&quot;ADROIX CORP.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;AMERICAN IT&quot;'>
+            <value>&quot;AMERICAN IT RESOURCE GROUP, INC&quot;</value>
+            <value>&quot;AMERICAN IT RESOURCE GROUP, INC.&quot;</value>
+            <value>&quot;AMERICAN IT SOLUTIONS&quot;</value>
+            <value>&quot;AMERICAN IT SOLUTIONS, INC.&quot;</value>
+            <value>&quot;AMERICAN IT SOURCE INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;AMERICAN TECHNOLOGY CONSULTING LLC&quot;'>
+            <value>&quot;AMERICAN TECHNOLOGY CONSULTING LLC&quot;</value>
+            <value>&quot;AMERICAN TECHNOLOGY CONSULTING, LLC&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;AMERICAN UNIT INC&quot;'>
+            <value>&quot;AMERICAN UNIT INC&quot;</value>
+            <value>&quot;AMERICAN UNIT, INC&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;AMITI CONSULTING, INC&quot;'>
+            <value>&quot;AMITI CONSULTING, INC&quot;</value>
+            <value>&quot;AMITI CONSULTING, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;ANJANEYAP INC&quot;'>
+            <value>&quot;ANJANEYAP INC.&quot;</value>
+            <value>&quot;ANJANEYAP, INC&quot;</value>
+            <value>&quot;ANJANEYAP, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;ANVETA, INC &quot;'>
+            <value>&quot;ANVETA, INC&quot;</value>
+            <value>&quot;ANVETA, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;APPDYNAMICS&quot;'>
+            <value>&quot;APPDYNAMICS&quot;</value>
+            <value>&quot;APPDYNAMICS, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;APPLE &quot;'>
+            <value>&quot;APPLE INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;BAHA INDUSTRIES &quot;'>
+            <value>&quot;BAHA INDUSTRIES CORP.&quot;</value>
+            <value>&quot;BAHA INDUSTRIES CORP. DBA OPEN SYSTEMS TECHNOLOGIES&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;BROCADE COMM&quot;'>
+            <value>&quot;BROCADE COMMUNICATIONS SYSTEMS, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;FACEBOOK&quot;'>
+            <value>&quot;FACEBOOK SERVICES, INC.&quot;</value>
+            <value>&quot;FACEBOOK, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;FACTSET RESEARCH SYSTEMS INC.&quot;'>
+            <value>&quot;FACTSET RESEARCH SYSTEMS INC.&quot;</value>
+            <value>&quot;FACTSET RESEARCH SYSTEMS, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;FIDELITY&quot;'>
+            <value>&quot;FIDELITY BROKERAGE SERVICES LLC&quot;</value>
+            <value>&quot;FIDELITY INVESTMENTS INSTITUTIONAL OPERATIONS COMP&quot;</value>
+            <value>&quot;FIDELITY SERVICE COMPANY, INC.&quot;</value>
+            <value>&quot;FIDELITY TECHNOLOGY GROUP LLC&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;FIRST TEK &quot;'>
+            <value>&quot;FIRST TEK , INC.&quot;</value>
+            <value>&quot;FIRST TEK DOS LLC&quot;</value>
+            <value>&quot;FIRST TEK, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;GOOGLE&quot;'>
+            <value>&quot;AIRFASTTICKETS, INC.&quot;</value>
+            <value>&quot;GOOGLE INC&quot;</value>
+            <value>&quot;GOOGLE INC.&quot;</value>
+            <value>&quot;GOOGLE, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;INTUIT INC.&quot;'>
+            <value>&quot;INTUIT&quot;</value>
+            <value>&quot;INTUIT INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;KPI PARTNERS, INC &quot;'>
+            <value>&quot;KPI PARTNERS, INC&quot;</value>
+            <value>&quot;KPI PARTNERS, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;MICROINFO INC&quot;'>
+            <value>&quot;MICROINFO INC&quot;</value>
+            <value>&quot;MICROINFO, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;MICROSOFT&quot;'>
+            <value>&quot;MICROSOFT CORPORATION&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;NETFLIX&quot;'>
+            <value>&quot;NETFLIX&quot;</value>
+            <value>&quot;NETFLIX, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;SALESFORCE&quot;'>
+            <value>&quot;SALESFORCE.COM, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;TWITTER&quot;'>
+            <value>&quot;TWITTER, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;TWO SIGMA LLC&quot;'>
+            <value>&quot;TWO SIGMA INVESTMENTS, LLC&quot;</value>
+            <value>&quot;TWO SIGMA SOLUTIONS, LLC&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;UBER &quot;'>
+            <value>&quot;UBER TECHNOLOGIES, INC.&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;WAL-MART &quot;'>
+            <value>&quot;WAL-MART ASSOCIATES INC.&quot;</value>
+            <value>&quot;WAL-MART ASSOCIATES, INC.&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Full Time Position Y N' datatype='string' name='[FULL_TIME_POSITION_Y_N]' role='dimension' type='nominal' />
+      <column caption='Job Title' datatype='string' name='[JOB_TITLE]' role='dimension' type='nominal' />
+      <column caption='Job Title Subgroup' datatype='string' name='[JOB_TITLE_SUBGROUP]' role='dimension' type='nominal' />
+      <column caption='Median Monthly Rent' datatype='integer' name='[MEDIAN_MONTHLY_RENT]' role='measure' type='quantitative' />
+      <column caption='Paid Wage Per Year' datatype='real' name='[PAID_WAGE_PER_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Paid Wage Submitted' datatype='real' name='[PAID_WAGE_SUBMITTED]' role='measure' type='quantitative' />
+      <column caption='Paid Wage Submitted Unit' datatype='string' name='[PAID_WAGE_SUBMITTED_UNIT]' role='dimension' type='nominal' />
+      <column caption='Prevailing Wage Per Year' datatype='real' name='[PREVAILING_WAGE_PER_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Prevailing Wage Soc Title' datatype='string' name='[PREVAILING_WAGE_SOC_TITLE]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;architectural and engineering managers&quot;' value='Architectural and Engineering Managers' />
+          <alias key='&quot;business operations specialists all other&quot;' value='Business Operations Specialists All other' />
+          <alias key='&quot;computer and information research scientists&quot;' value='Computer and Information Research Scientists' />
+          <alias key='&quot;computer and information systems managers&quot;' value='Computer and Information System Managers' />
+          <alias key='&quot;computer network architects&quot;' value='Computer Network Architects' />
+          <alias key='&quot;computer support specialists&quot;' value='Computer Support Specialists' />
+          <alias key='&quot;market research analysts and marketing specialists&quot;' value='Market Research Analysts and Marketing Specialists' />
+          <alias key='&quot;mathematicians&quot;' value='Mathematicians' />
+          <alias key='&quot;medical records and health information technicians&quot;' value='Medical Records and Health Information Technicians' />
+          <alias key='&quot;social science research assistants&quot;' value='Social Science Research Assistants' />
+        </aliases>
+      </column>
+      <column caption='Prevailing Wage Submitted' datatype='real' name='[PREVAILING_WAGE_SUBMITTED]' role='measure' type='quantitative' />
+      <column caption='Prevailing Wage Submitted Unit' datatype='string' name='[PREVAILING_WAGE_SUBMITTED_UNIT]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Value Of Dollar' datatype='real' name='[VALUE_OF_DOLLAR]' role='measure' type='quantitative' />
+      <column caption='Visa Class' datatype='string' name='[VISA_CLASS]' role='dimension' type='nominal' />
+      <column caption='Work City' datatype='string' name='[WORK_CITY]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Work State' datatype='string' name='[WORK_STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Merge_Data_CPI' datatype='table' name='[__tableau_internal_object_id__].[Merge!Data!CPI_2C44818C817A405E80CD428A789D6906]' role='measure' type='quantitative' />
+      <column-instance column='[PREVAILING_WAGE_SOC_TITLE]' derivation='None' name='[none:PREVAILING_WAGE_SOC_TITLE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[STATE]' derivation='None' name='[none:STATE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[WORK_STATE]' derivation='None' name='[none:WORK_STATE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1048212843510468608]' derivation='User' name='[usr:Calculation_1048212843510468608:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Prevailing Wage Soc Title,State)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+          <groupfilter function='level-members' level='[none:STATE:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (Prevailing Wage Soc Title,Work State)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+          <groupfilter function='level-members' level='[none:WORK_STATE:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[usr:Calculation_1048212843510468608:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;High AVG Salary&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Low AVG Salary&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Merge_Data_CPI' id='Merge!Data!CPI_2C44818C817A405E80CD428A789D6906'>
+            <properties context=''>
+              <relation connection='excel-direct.1kca8ru0c0sxa910uwamy0z1ofnb' name='Merge_Data_CPI' table='[Merge_Data_CPI$]' type='table'>
+                <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='CASE_STATUS' ordinal='0' />
+                  <column datatype='date' name='CASE_RECEIVED_DATE' ordinal='1' />
+                  <column datatype='date' name='DECISION_DATE' ordinal='2' />
+                  <column datatype='string' name='EMPLOYER_NAME' ordinal='3' />
+                  <column datatype='real' name='PREVAILING_WAGE_SUBMITTED' ordinal='4' />
+                  <column datatype='string' name='PREVAILING_WAGE_SUBMITTED_UNIT' ordinal='5' />
+                  <column datatype='real' name='PAID_WAGE_SUBMITTED' ordinal='6' />
+                  <column datatype='string' name='PAID_WAGE_SUBMITTED_UNIT' ordinal='7' />
+                  <column datatype='string' name='JOB_TITLE' ordinal='8' />
+                  <column datatype='string' name='WORK_CITY' ordinal='9' />
+                  <column datatype='string' name='PREVAILING_WAGE_SOC_TITLE' ordinal='10' />
+                  <column datatype='string' name='WORK_STATE' ordinal='11' />
+                  <column datatype='string' name='FULL_TIME_POSITION_Y_N' ordinal='12' />
+                  <column datatype='string' name='VISA_CLASS' ordinal='13' />
+                  <column datatype='real' name='PREVAILING_WAGE_PER_YEAR' ordinal='14' />
+                  <column datatype='real' name='PAID_WAGE_PER_YEAR' ordinal='15' />
+                  <column datatype='string' name='JOB_TITLE_SUBGROUP' ordinal='16' />
+                  <column datatype='string' name='STATE' ordinal='17' />
+                  <column datatype='integer' name='ANNUAL_MEAN_WAGE_ALL_FIELDS' ordinal='18' />
+                  <column datatype='integer' name='MEDIAN_MONTHLY_RENT' ordinal='19' />
+                  <column datatype='real' name='VALUE_OF_DOLLAR' ordinal='20' />
+                  <column datatype='real' name='CPI (2018)' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='AvgSalarybySubtypeMap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Highest Job Subtype (AVG)Salary by State</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Earlier Computer Systems and Information Software managers was showed that it had a lower average due to it combining from all locations but you can see here that California it has a higher average.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merge_Data_CPI (NefsMergedData)' name='federated.0xf4738186lj6q1cr0fm11mkj9b1' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0xf4738186lj6q1cr0fm11mkj9b1'>
+            <column caption='Job Title Subgroup' datatype='string' name='[JOB_TITLE_SUBGROUP]' role='dimension' type='nominal' />
+            <column caption='Paid Wage Per Year' datatype='real' name='[PAID_WAGE_PER_YEAR]' role='dimension' type='quantitative' />
+            <column caption='Prevailing Wage Soc Title' datatype='string' name='[PREVAILING_WAGE_SOC_TITLE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;architectural and engineering managers&quot;' value='Architectural and Engineering Managers' />
+                <alias key='&quot;business operations specialists all other&quot;' value='Business Operations Specialists All other' />
+                <alias key='&quot;computer and information research scientists&quot;' value='Computer and Information Research Scientists' />
+                <alias key='&quot;computer and information systems managers&quot;' value='Computer and Information System Managers' />
+                <alias key='&quot;computer network architects&quot;' value='Computer Network Architects' />
+                <alias key='&quot;computer support specialists&quot;' value='Computer Support Specialists' />
+                <alias key='&quot;market research analysts and marketing specialists&quot;' value='Market Research Analysts and Marketing Specialists' />
+                <alias key='&quot;mathematicians&quot;' value='Mathematicians' />
+                <alias key='&quot;medical records and health information technicians&quot;' value='Medical Records and Health Information Technicians' />
+                <alias key='&quot;social science research assistants&quot;' value='Social Science Research Assistants' />
+              </aliases>
+            </column>
+            <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Work State' datatype='string' name='[WORK_STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[PAID_WAGE_PER_YEAR]' derivation='Avg' name='[avg:PAID_WAGE_PER_YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JOB_TITLE_SUBGROUP]' derivation='Count' name='[cnt:JOB_TITLE_SUBGROUP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PREVAILING_WAGE_SOC_TITLE]' derivation='None' name='[none:PREVAILING_WAGE_SOC_TITLE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STATE]' derivation='None' name='[none:STATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WORK_STATE]' derivation='None' name='[none:WORK_STATE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Exclusions (Prevailing Wage Soc Title,State)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+                <groupfilter function='level-members' level='[none:STATE:nk]' />
+              </groupfilter>
+              <groupfilter function='union'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;accountants and auditors&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;New Jersey&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business intelligence analysts&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;New Jersey&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Arkansas&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Illinois&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;New Jersey&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer and information systems managers&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Illinois&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer occupations all other&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Arkansas&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Delaware&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Illinois&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Nebraska&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Rhode Island&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer programmers&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Alabama&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Arkansas&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Delaware&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Idaho&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Illinois&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Louisiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Nebraska&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Rhode Island&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer software engineers applications&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Alabama&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Illinois&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Kansas&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Oklahoma&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer software engineers systems software&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer systems analysts&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Alabama&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Alaska&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Arkansas&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Delaware&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Idaho&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Louisiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Maine&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Mississippi&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Nebraska&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;New Mexico&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;North Dakota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Oklahoma&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Rhode Island&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Vermont&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;database administrators&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;electrical engineers&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;financial analysts&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Oklahoma&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Rhode Island&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;information security analysts&quot;' />
+                    <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;information security analysts web developers and&quot;' />
+                    <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;mathematicians&quot;' />
+                  </groupfilter>
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;California&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;logisticians&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Tennessee&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;management analysts&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Alabama&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Arkansas&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Delaware&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Louisiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Maine&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Nebraska&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Oklahoma&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Rhode Island&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;market research analysts and marketing specialists&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Florida&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Georgia&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Indiana&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Maryland&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Michigan&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;New Jersey&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;North Carolina&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Tennessee&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Virginia&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;medical records and health information technicians&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;North Carolina&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;network and computer systems administrators&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Louisiana&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;operations research analysts&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Delaware&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Wisconsin&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;social science research assistants&quot;' />
+                  <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Maryland&quot;' />
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;software developers applications&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;California&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Idaho&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Iowa&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Minnesota&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Rhode Island&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;software developers systems software&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;California&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Colorado&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Utah&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;statisticians&quot;' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;California&quot;' />
+                    <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Nebraska&quot;' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Exclusions (Prevailing Wage Soc Title,Work State)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+                <groupfilter function='level-members' level='[none:WORK_STATE:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='union'>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Arizona&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business intelligence analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer occupations all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer programmers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer software engineers applications&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer systems analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;financial analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;management analysts&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;California&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;accountants and auditors&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;architectural and engineering managers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;biological scientists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;biomedical engineers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;budget analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business intelligence analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer and information research scientists&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer hardware engineers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer network architects&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;electrical engineers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;electronics engineers except computer&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;engineers all other&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Connecticut&quot;' />
+                    <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;accountants and auditors&quot;' />
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Florida&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;accountants and auditors&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Georgia&quot;' />
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Michigan&quot;' />
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Pennsylvania&quot;' />
+                    </groupfilter>
+                    <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Kentucky&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer occupations all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer systems analysts&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Massachusetts&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;biological scientists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;electrical engineers&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;New Hampshire&quot;' />
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;South Carolina&quot;' />
+                    </groupfilter>
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer occupations all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer programmers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer systems analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;management analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;software developers applications&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;New York&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;accountants and auditors&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;budget analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business intelligence analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer and information research scientists&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;North Carolina&quot;' />
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Virginia&quot;' />
+                      <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Washington&quot;' />
+                    </groupfilter>
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer and information research scientists&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Ohio&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer occupations all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer programmers&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Oregon&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer occupations all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer programmers&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer software engineers applications&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;Texas&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;accountants and auditors&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business intelligence analysts&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;business operations specialists all other&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer and information research scientists&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:WORK_STATE:nk]' member='&quot;West Virginia&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer software engineers applications&quot;' />
+                      <groupfilter function='member' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' member='&quot;computer systems analysts&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+                  <hierarchy name='[none:WORK_STATE:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]' included-values='in-range'>
+            <min>6</min>
+          </filter>
+          <filter class='categorical' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:STATE:nk]' member='&quot;Alabama&quot;' />
+              <groupfilter from='&quot;Arizona&quot;' function='range' level='[none:STATE:nk]' to='&quot;Georgia&quot;' />
+              <groupfilter from='&quot;Idaho&quot;' function='range' level='[none:STATE:nk]' to='&quot;Wyoming&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]</column>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Exclusions (Prevailing Wage Soc Title,Work State)]</column>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Exclusions (Prevailing Wage Soc Title,State)]</column>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Longitude (generated)]' field-type='quantitative' max='32630895.378138091' min='25913053.052579358' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]' field-type='quantitative' max='6474584.8170873038' min='2878473.2577813556' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]' field-type='quantitative' fold='true' max='6474584.8170873038' min='2878473.2577813556' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#f2dada</color>
+                <color>#f3c3c3</color>
+                <color>#f5abab</color>
+                <color>#f69393</color>
+                <color>#f87c7c</color>
+                <color>#f96363</color>
+                <color>#fa4b4b</color>
+                <color>#fc3232</color>
+                <color>#fd1919</color>
+                <color>#ff0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+              <lod column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+              <lod column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]' />
+              <text column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+              <lod column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+              <geometry column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='Tableau Bold' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+              <lod column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]' />
+              <lod column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+              <text column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+              <geometry column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='auto' />
+                <format attr='wrap' value='auto' />
+                <format attr='text-align' value='auto' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='text-decoration' value='none' />
+                <format attr='font-size' value='10' />
+                <format attr='font-family' value='Tableau Bold' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-range-field' value='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)] + [federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)])</rows>
+        <cols>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Longitude (generated)]</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor y-index='1'>
+                  <x-fields y-index='1'>
+                    <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Longitude (generated)]</field>
+                  </x-fields>
+                  <y-fields y-index='1'>
+                    <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Geometry (generated)]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Longitude (generated)]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>56068.333333333336</value>
+                <value>&quot;software developers applications&quot;</value>
+                <value>&quot;Wyoming&quot;</value>
+                <value>&quot;POLYGON((-111.049 44.4741,-111.0553 44.6663,-111.0552 45.0013,-110.785 45.003,-110.7053 44.9923,-110.4029 44.9938,-110.3627 45.0006,-110.1995 44.9962,-110.1101 45.0039,-109.7987 45.0022,-109.1034 45.0059,-109.083 44.9996,-108.6213 45.0003,-108.2493 44.9995,-107.9118 45.0013,-107.2828 45.0012,-107.0849 44.9966,-106.2636 44.9938,-105.9282 44.9936,-105.9134 45.0009,-105.0384 45.0003,-104.0577 44.9974,-104.0545 44.1804,-104.0555 43.8535,-104.0548 43.4778,-104.053 43.0006,-104.0523 41.3932,-104.0532 41.0014,-104.6255 41.0014,-104.9434 40.9982,-105.2771 40.9982,-105.7304 40.9969,-106.1906 40.9976,-106.4396 41.002,-107.3178 41.0029,-107.9184 41.002,-108.2507 41.0001,-109.0501 41.0007,-110.0007 40.9974,-110.2379 40.9954,-111.0467 40.998,-111.0458 41.5798,-111.0467 42.0016,-111.0467 42.5131,-111.0435 42.7195,-111.0446 43.3157,-111.047 43.9835,-111.0491 44.0201,-111.049 44.4741))&quot;</value>
+                <value>43.0</value>
+                <value>-107.5</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='0.502183' y='0.346369' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor y-index='1'>
+                  <x-fields y-index='1'>
+                    <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Longitude (generated)]</field>
+                  </x-fields>
+                  <y-fields y-index='1'>
+                    <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Geometry (generated)]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Latitude (generated)]</field>
+                  <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Longitude (generated)]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>158463.09375</value>
+                <value>&quot;computer and information systems managers&quot;</value>
+                <value>&quot;Washington&quot;</value>
+                <value>&quot;MULTIPOLYGON(((-122.4036 47.6705,-122.3731 47.7292,-122.3945 47.7779,-122.3398 47.8469,-122.3071 47.9491,-122.2535 47.9585,-122.2345 48.0294,-122.3432 48.0976,-122.3951 48.2293,-122.4513 48.2316,-122.479 48.1761,-122.3795 48.0874,-122.5111 48.1325,-122.531 48.2498,-122.4044 48.25,-122.3636 48.2976,-122.4718 48.3519,-122.5031 48.4348,-122.5322 48.3752,-122.5772 48.4466,-122.6572 48.4083,-122.6784 48.4944,-122.6065 48.5212,-122.5119 48.4583,-122.4754 48.462,-122.4925 48.5594,-122.4257 48.6004,-122.4882 48.6454,-122.5193 48.7127,-122.4903 48.7424,-122.6007 48.773,-122.6513 48.7145,-122.6474 48.774,-122.706 48.799,-122.7227 48.8528,-122.7868 48.8858,-122.7471 48.9164,-122.8182 48.9391,-122.758 49.0022,-122.1168 49.0022,-121.9959 49,-121.7602 49.0011,-120.8521 49.0001,-118.1968 49.0002,-117.4295 49.0006,-117.0324 49.0001,-117.0324 48.8466,-117.0351 48.3852,-117.0422 47.9774,-117.0399 47.366,-117.0398 46.4254,-117.0517 46.3438,-116.9879 46.298,-116.956 46.226,-116.963 46.1997,-116.924 46.1709,-116.9347 46.1367,-116.9789 46.08,-116.9427 46.061,-116.916 45.9954,-117.3377 45.9987,-117.4801 45.9979,-117.9969 46.0008,-118.7679 46.001,-118.9871 45.9999,-119.0086 45.9793,-119.1261 45.9329,-119.1955 45.9279,-119.2572 45.9399,-119.3644 45.9216,-119.4319 45.9183,-119.4878 45.9063,-119.5716 45.9255,-119.6234 45.9056,-119.6699 45.8569,-119.9657 45.8244,-120.0702 45.7852,-120.1705 45.762,-120.2108 45.726,-120.2838 45.7212,-120.404 45.6993,-120.5059 45.7,-120.5595 45.7383,-120.5912 45.7465,-120.6536 45.7372,-120.6894 45.7158,-120.8557 45.6715,-120.9159 45.6413,-120.944 45.6564,-121.0849 45.6479,-121.132 45.6098,-121.1838 45.6064,-121.2158 45.6712,-121.3378 45.7049,-121.4017 45.6929,-121.4411 45.6973,-121.5224 45.7247,-121.6312 45.7047,-121.7351 45.694,-121.8113 45.7068,-121.8672 45.6933,-121.9222 45.6491,-122.0037 45.6159,-122.0444 45.6095,-122.1017 45.5835,-122.1838 45.5776,-122.249 45.5477,-122.3315 45.5482,-122.3803 45.5759,-122.4387 45.5636,-122.475 45.5784,-122.6077 45.6081,-122.675 45.618,-122.7638 45.6571,-122.7745 45.6804,-122.7626 45.7282,-122.7695 45.7806,-122.7956 45.81,-122.7855 45.8505,-122.8115 45.9127,-122.814 45.961,-122.8781 46.0313,-122.9041 46.0837,-122.9627 46.1048,-123.0042 46.1338,-123.1159 46.1853,-123.1664 46.189,-123.2131 46.1725,-123.2838 46.151,-123.4989 46.2738,-123.6126 46.2601,-123.7279 46.2896,-123.8755 46.2398,-124.0206 46.3157,-124.0807 46.2672,-124.0561 46.4546,-124.0679 46.635,-124.0236 46.5826,-124.0143 46.3786,-123.9538 46.3781,-123.9052 46.4297,-123.9435 46.4744,-123.8961 46.5498,-123.9589 46.6331,-123.8399 46.7129,-123.8931 46.7502,-123.9682 46.7069,-124.0881 46.7343,-124.0983 46.7942,-124.136 46.9053,-124.0493 46.8913,-123.8231 46.9577,-123.9983 46.9809,-124.0263 47.0302,-124.1514 47.0224,-124.1275 46.9451,-124.175 46.9278,-124.1714 47.0439,-124.2382 47.2887,-124.3208 47.3549,-124.3545 47.5336,-124.4314 47.7469,-124.498 47.8226,-124.6108 47.8807,-124.6752 47.9654,-124.6869 48.095,-124.7335 48.1617,-124.6652 48.3378,-124.7317 48.3814,-124.6367 48.388,-124.3809 48.2847,-124.2513 48.2646,-124.1018 48.2169,-124.0507 48.1778,-123.865 48.1545,-123.6724 48.1627,-123.3759 48.1142,-123.2486 48.1157,-123.1635 48.166,-123.0675 48.1212,-123.0405 48.0808,-122.9179 48.0958,-122.9274 48.0651,-122.8332 48.0104,-122.8912 48.0776,-122.8389 48.1357,-122.7553 48.1443,-122.8004 48.0855,-122.674 47.9172,-122.6105 47.8871,-122.6915 47.8687,-122.7436 47.8091,-122.7725 47.6909,-122.8323 47.6914,-122.7865 47.8043,-122.8752 47.7453,-122.9033 47.6458,-122.9874 47.6061,-123.1124 47.457,-123.1594 47.354,-123.0193 47.3546,-122.9133 47.3886,-122.843 47.4364,-123.0129 47.3791,-123.1194 47.3902,-123.0233 47.5203,-122.9168 47.622,-122.752 47.6672,-122.7482 47.719,-122.6075 47.8569,-122.5658 47.8207,-122.596 47.9201,-122.526 47.9124,-122.4885 47.7436,-122.5609 47.7503,-122.5496 47.721,-122.4797 47.5846,-122.5769 47.6008,-122.5861 47.6401,-122.6074 47.5468,-122.5549 47.5905,-122.5479 47.5245,-122.4948 47.5105,-122.5508 47.4032,-122.5761 47.2571,-122.6735 47.2876,-122.6271 47.4035,-122.6344 47.4035,-122.7282 47.3385,-122.7664 47.2698,-122.7205 47.2211,-122.7685 47.1671,-122.8309 47.2457,-122.7885 47.2998,-122.8021 47.359,-122.819 47.4064,-122.846 47.3114,-122.9274 47.2806,-122.9674 47.1686,-123.0749 47.0974,-122.9188 47.1734,-123.0179 47.0665,-122.9492 47.0993,-122.9044 47.045,-122.9071 47.1405,-122.8149 47.1781,-122.7865 47.1275,-122.6969 47.0975,-122.5905 47.1769,-122.5292 47.2926,-122.4363 47.262,-122.4176 47.3208,-122.3248 47.3485,-122.3284 47.4006,-122.3831 47.4505,-122.3613 47.4814,-122.4211 47.5764,-122.35 47.5576,-122.339 47.6039,-122.4169 47.6421,-122.4036 47.6705),(-122.3722 47.6635,-122.2783 47.6428,-122.2619 47.5214,-122.2186 47.5003,-122.1884 47.5782,-122.2778 47.6482,-122.3722 47.6635)),((-122.5955 48.3973,-122.5984 48.358,-122.5062 48.3093,-122.6606 48.2803,-122.7215 48.2143,-122.6284 48.2225,-122.5679 48.1486,-122.5368 48.0411,-122.5245 48.0971,-122.3763 48.0343,-122.3507 47.9532,-122.3764 47.9072,-122.4315 47.9141,-122.4821 47.9919,-122.607 48.0316,-122.6116 48.1546,-122.6796 48.1551,-122.7699 48.2276,-122.6737 48.3547,-122.6641 48.4022,-122.5955 48.3973)),((-122.4499 47.4797,-122.4273 47.4021,-122.3736 47.3887,-122.528 47.3449,-122.4768 47.5101,-122.4499 47.4797)),((-122.5811 48.5498,-122.6493 48.5288,-122.652 48.5851,-122.5811 48.5498)),((-122.6939 48.7352,-122.6091 48.6404,-122.719 48.7171,-122.6939 48.7352)),((-122.904 48.7146,-122.7421 48.6607,-122.8306 48.6004,-122.9492 48.598,-123.0099 48.6551,-122.904 48.7146)),((-122.8551 47.2943,-122.8421 47.2077,-122.8747 47.1642,-122.9256 47.2365,-122.8551 47.2943)),((-122.8838 48.5727,-122.8462 48.4461,-122.9455 48.4654,-122.8838 48.5727)),((-123.1453 48.6236,-123.0058 48.5521,-123.0056 48.4696,-123.1321 48.498,-123.1763 48.5621,-123.1453 48.6236)),((-123.9722 46.4856,-123.9401 46.4115,-123.9923 46.4478,-123.9722 46.4856)))&quot;</value>
+                <value>47.5</value>
+                <value>-120.5</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='0.973684' y='11' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{AAF35246-300E-46D5-98EA-9164AE6970F0}' />
+    </worksheet>
+    <worksheet name='High/Low Salaries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Highest and Lowest AVG Salary of Job Subtypes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merge_Data_CPI (NefsMergedData)' name='federated.0xf4738186lj6q1cr0fm11mkj9b1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xf4738186lj6q1cr0fm11mkj9b1'>
+            <column caption='Higher/Lower Salaries Calc' datatype='string' name='[Calculation_1048212843510468608]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF AVG([PAID_WAGE_PER_YEAR]) &gt;=90000&#13;&#10;THEN &quot;High AVG Salary&quot;&#13;&#10;ELSEIF  AVG([PAID_WAGE_PER_YEAR])&lt;=60000  &#13;&#10;THEN &quot;Low AVG Salary&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Low/High Exclusion Calc' datatype='boolean' name='[Calculation_1048212843540492289]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='AVG([PAID_WAGE_PER_YEAR])&lt;100000 AND  AVG([PAID_WAGE_PER_YEAR])&gt;60000&#13;&#10;//T/F for range within/outside' />
+            </column>
+            <column caption='Job Title Subgroup' datatype='string' name='[JOB_TITLE_SUBGROUP]' role='dimension' type='nominal' />
+            <column caption='Paid Wage Per Year' datatype='real' name='[PAID_WAGE_PER_YEAR]' role='dimension' type='quantitative' />
+            <column caption='Prevailing Wage Soc Title' datatype='string' name='[PREVAILING_WAGE_SOC_TITLE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;architectural and engineering managers&quot;' value='Architectural and Engineering Managers' />
+                <alias key='&quot;business operations specialists all other&quot;' value='Business Operations Specialists All other' />
+                <alias key='&quot;computer and information research scientists&quot;' value='Computer and Information Research Scientists' />
+                <alias key='&quot;computer and information systems managers&quot;' value='Computer and Information System Managers' />
+                <alias key='&quot;computer network architects&quot;' value='Computer Network Architects' />
+                <alias key='&quot;computer support specialists&quot;' value='Computer Support Specialists' />
+                <alias key='&quot;market research analysts and marketing specialists&quot;' value='Market Research Analysts and Marketing Specialists' />
+                <alias key='&quot;mathematicians&quot;' value='Mathematicians' />
+                <alias key='&quot;medical records and health information technicians&quot;' value='Medical Records and Health Information Technicians' />
+                <alias key='&quot;social science research assistants&quot;' value='Social Science Research Assistants' />
+              </aliases>
+            </column>
+            <column-instance column='[PAID_WAGE_PER_YEAR]' derivation='Avg' name='[avg:PAID_WAGE_PER_YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JOB_TITLE_SUBGROUP]' derivation='Count' name='[cnt:JOB_TITLE_SUBGROUP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PREVAILING_WAGE_SOC_TITLE]' derivation='None' name='[none:PREVAILING_WAGE_SOC_TITLE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1048212843510468608]' derivation='User' name='[usr:Calculation_1048212843510468608:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1048212843540492289]' derivation='User' name='[usr:Calculation_1048212843540492289:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]' included-values='in-range'>
+            <min>12</min>
+          </filter>
+          <filter class='categorical' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+              <groupfilter function='empty-level' member='[none:PREVAILING_WAGE_SOC_TITLE:nk]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[usr:Calculation_1048212843540492289:nk]'>
+            <groupfilter function='member' level='[usr:Calculation_1048212843540492289:nk]' member='false' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]</column>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]</column>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[usr:Calculation_1048212843540492289:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='109' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='70' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='0' />
+            <format attr='wrap' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='on' />
+            <format attr='color' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='#000000' />
+            <format attr='font-size' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='8' />
+            <format attr='font-family' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='Tableau Bold' />
+            <format attr='font-weight' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='font-size' value='12' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[usr:Calculation_1048212843510468608:nk]' />
+              <text column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+              <lod column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='420' />
+                <format attr='maxheight' value='420' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]</rows>
+        <cols>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]</cols>
+      </table>
+      <simple-id uuid='{372FAD46-E1EB-45FA-9766-326B74A02710}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Top Employer by Avg Paid Wage per Year</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Merge_Data_CPI (NefsMergedData)' name='federated.0xf4738186lj6q1cr0fm11mkj9b1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xf4738186lj6q1cr0fm11mkj9b1'>
+            <column caption='Employer Name' datatype='string' name='[EMPLOYER_NAME]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;TWO SIGMA INVESTMENTS LLC&quot;' value='2 SIGMA INVESTMENTS LLC' />
+              </aliases>
+            </column>
+            <column caption='Job Title Subgroup' datatype='string' name='[JOB_TITLE_SUBGROUP]' role='dimension' type='nominal' />
+            <column caption='Paid Wage Per Year' datatype='real' name='[PAID_WAGE_PER_YEAR]' role='dimension' type='quantitative' />
+            <column caption='Prevailing Wage Soc Title' datatype='string' name='[PREVAILING_WAGE_SOC_TITLE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;architectural and engineering managers&quot;' value='Architectural and Engineering Managers' />
+                <alias key='&quot;business operations specialists all other&quot;' value='Business Operations Specialists All other' />
+                <alias key='&quot;computer and information research scientists&quot;' value='Computer and Information Research Scientists' />
+                <alias key='&quot;computer and information systems managers&quot;' value='Computer and Information System Managers' />
+                <alias key='&quot;computer network architects&quot;' value='Computer Network Architects' />
+                <alias key='&quot;computer support specialists&quot;' value='Computer Support Specialists' />
+                <alias key='&quot;market research analysts and marketing specialists&quot;' value='Market Research Analysts and Marketing Specialists' />
+                <alias key='&quot;mathematicians&quot;' value='Mathematicians' />
+                <alias key='&quot;medical records and health information technicians&quot;' value='Medical Records and Health Information Technicians' />
+                <alias key='&quot;social science research assistants&quot;' value='Social Science Research Assistants' />
+              </aliases>
+            </column>
+            <column-instance column='[PAID_WAGE_PER_YEAR]' derivation='Avg' name='[avg:PAID_WAGE_PER_YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JOB_TITLE_SUBGROUP]' derivation='Count' name='[cnt:JOB_TITLE_SUBGROUP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PREVAILING_WAGE_SOC_TITLE]' derivation='CountD' name='[ctd:PREVAILING_WAGE_SOC_TITLE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EMPLOYER_NAME]' derivation='None' name='[none:EMPLOYER_NAME:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' included-values='in-range'>
+            <min>136000.0</min>
+          </filter>
+          <filter class='quantitative' column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]' included-values='in-range'>
+            <min>12</min>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[cnt:JOB_TITLE_SUBGROUP:qk]</column>
+            <column>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='108' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='67' />
+            <format attr='wrap' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' value='on' />
+            <format attr='wrap' data-class='subtotal' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' value='on' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='bold' />
+            <format attr='font-family' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='Tableau Bold' />
+            <format attr='color' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='#000000' />
+            <format attr='wrap' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='on' />
+            <format attr='font-size' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]' value='8' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[ctd:PREVAILING_WAGE_SOC_TITLE:qk]' value='Job SubType CNTD' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[ctd:PREVAILING_WAGE_SOC_TITLE:qk]' />
+              <text column='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='388' />
+                <format attr='maxheight' value='388' />
+                <format attr='minwidth' value='804' />
+                <format attr='maxwidth' value='804' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]</rows>
+        <cols>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]</cols>
+      </table>
+      <simple-id uuid='{34AD60D0-3B28-419F-95B6-2EA9B2F1B6A6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='25' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{342819B0-C858-4744-97EB-18F5313CCC98}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='High/Low Salaries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[usr:Calculation_1048212843510468608:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:JOB_TITLE_SUBGROUP:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PAID_WAGE_PER_YEAR:qk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_PER_YEAR:qk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[usr:Calculation_1048212843510468608:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[usr:Calculation_1048212843540492289:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{725640AD-4F1E-4E46-82EB-A95DE7EAED32}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[ctd:PREVAILING_WAGE_SOC_TITLE:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.08jephi0o61l1l101luwe1k5d5t6].[none:EMPLOYER_NAME:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[Employer Name (group)]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[ctd:PREVAILING_WAGE_SOC_TITLE:qk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:EMPLOYER_NAME:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:JOB_TITLE_SUBGROUP:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PAID_WAGE_PER_YEAR:qk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_PER_YEAR:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8F71EF23-4818-40CC-A53A-409D4DA3B531}' />
+    </window>
+    <window class='worksheet' name='AvgSalarybySubtypeMap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[avg:PAID_WAGE_PER_YEAR:qk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:JOB_TITLE_SUBGROUP:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_PER_YEAR:qk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:PREVAILING_WAGE_SOC_TITLE:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:STATE:nk]</field>
+            <field>[federated.0xf4738186lj6q1cr0fm11mkj9b1].[none:WORK_STATE:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{0274691A-2FC7-45E9-B2A9-E71992821356}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{85201BD7-7148-4CA1-BEF3-0BE9AC897E96}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='AvgSalarybySubtypeMap' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='High/Low Salaries' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO29eXxcV5nn/b21SyqV9n3fN8v7bpPEcUicxEnINENYGhoGGGa6oV9mGrrf
+      YRmgGXi7+21oGhpooANZMB2ahCzEiUPieLe8yJJl2Za172upqlT7dpf5w7ESJ5KSWCXZcZ3v
+      56OPVLqnnvucc+/vnnPuOc85kqZpGgJBnKK73g4IBNcTIQBBXCMEIIhrhADiBDkSZHRkGI8/
+      9A6/oeHz+RdM4fN6UdUIM24fIb8PecHupEbA42J8chp1jnRKJMjw8DDDY5Oo6uvHg34fsvoO
+      Xb4GDEtnWnAjMdV9imMDElHPaR544C4kJFCiqHozBknDqNchqyp+fxBbkpme4XEunrvA2vpq
+      MstLUQIhzInJaBE/YUUiJcVG08svUrWmgmcPTlCbHmHDHXeiV8GaYMTt9pJgtaGE/WCwkJRg
+      5rlnfk9F/TpsKclEAn6SbCkoIT9RDCTqZVpe+QOmle8n5HUScdkJZZTh6zxFze0PYAq6SU5N
+      w6iP7TNbEm+B4oOxC4d49tQE6amp+CcvsWbrLfzxqScJppSxuiSV9OQEkjMzeP7pZ9mw8378
+      wSAEvCQhk2IDZ0Iq/jE/wXAIfdTPPX/6KVznXqapO4w124o+4KWqwMbje09z+7oqwugIKnq6
+      mo+hZFTz1S98grYTr9Ix5KG8wIojoBIKKERCPlZt2EJdRRHnXnkGy4b7GDj8DFI0gjetgjTf
+      MIpJz8HjZ9h8x4fZ/b6GmJaLaALFCZIksXrLTh568C5Ss4tYUVVCdlEp79u0loaCVNqmooQc
+      Y1TU1KJEw0iS9IYfPdUrGzEoCtGQH38oDEBOSTn9o2PUJ0SxawlEPVMUZ9vQNBWP24uKjtzi
+      CrZvXAXAjNtLxOskpEp4ZmYwWBJADuPxBWd9lABJJ1FcVkbQ40VDwmxJpG7lRqpLsmJfLqIG
+      ELxzIjQdOIxbTeCO27dhkOZONTnYyelzndSvv4XyvNTldfFdsiwCuHIKSZqnxASC68SyNIEU
+      RVmO0wgE7xrRBxDENUIAgrhGCEAQ1wgBCOIaIQBBXCMEIIhrrstcIE3TeOWVV7BarWzatInH
+      HnuMhoYGRkdHmZyc5OMf/ziyLPPoo4+yevVqvF4vAwMD7Nq1i5dffpk1a9awcePG6+G64Cbj
+      utQAkiSxZcsWEhIS6Ovro6qqCkmSKCsrw2w2YzQakWUZi8WCpmkkJibyiU98gv3792MymfD7
+      /YgBbEEsuC41gKqqdHR00NPTQ05ODl1dXZjNZqqrqzEajUxOTmI0Gqmrq2NoaAibzcYrr7zC
+      unXrGBkZwW63oygKBoOYzCpYHMsyFUKWZfR6/exUCE3TGBkZIRqNUlhYiE6nQ5ZlHA4Her2e
+      iYkJKioqmJmZISUlBaPRiNPpJD8/n8nJSSwWC6mpN/YcE8F7g+siAIHgRmHZ2xDDrkF+0fTj
+      mNj6wi1fIsuaHRNbgvhk2QUQkkP0THfFxFZEicTEjiB+uaa3QDP2UVraLwGghJwcOXkOt32E
+      Y0ePMeWeYXzcyehALyFZvKkR3NhcUw2QmlWAzd2Dpql09YxhS9Qx5fCyccsaurr6cYxMkl1Z
+      S77+cvtfVVU0TUOSpJhOjVZkGVmWY2ZPEH8sqgmkBJyMTtrxzLgpryon6PeB3kRmTh5hvxfI
+      Q6/XA7z+W6dftNNX0Ov1s3bfTEdHBxcvXuSuu+5i7969RKNRqqqqaG9vZ8eOHRQXF/PCCy/Q
+      0dHBnXfeycWLFykoKKCmpoY9e/bwpS99SXTa44BrEsD02AB2ux19Yip37LwNx7ST5EQDF7sG
+      qa6vJhJQMGgBAhGVJPPrN6gkSRDLe+q1mNW5qK+vx+VyYbVaycrKwufzUV5eTmtrKykpKZhM
+      Ju655x5SUlJoaGigs7MTm81GR0cHK1aseN1fwU3NNQkgM7+UzPzS2c8ZmRkArF69EoBEE0DS
+      Yn1bFKOjo/T09JCXl4fNZmN0dBS73U5NTQ39/f2YTCaGhoaora1lcnKSiooK+vr6CAaDdHR0
+      sG3bNlJSUq5rHgRLz007lKrX69mwYQNWqxVZlrnnnntQVRWj0YjZbMbpdFJWVkZSUhI+n49g
+      MMju3btJTEzE5/ORlHR9BSxYHm5aAeTm5pKbmwtAdvbrYwVv/PsKycnJ1NbWzn62Wq1L76Dg
+      huCmFMDf7/9bInJ40Xbuqr2XjSVb5zxmt9s5cOAA999/PwcPHsRut7NmzRpaWlqoq6tjw4YN
+      nDlzhvPnz7N161aOHj1KWVkZmZmZtLW1sXv3btHEugG4KQXQOdVBKBpctJ0NxVvmPZaVlUVF
+      RQWaprFz506OHj1KMBi86lXv2rVrAfD7/czMzJCbm8vJkyex2WyYTKZF+ydYPCIgZpFomsax
+      Y8fYuHEjfr+fnTt3MjY2BkBrayt5eXlUVVXxqU99itbWVtLT09m6dSvHjx+/zp4L4CatAZaD
+      sbExOjs78fl8+Hw+XnjhBbZv386JEyfYtGkT+/btIzU1lUOHDrFx40a6u7tZs2YNubm5HDp0
+      iLvuuut6Z0GAEMA1k5+fz0c/+tG3/P/BBx9E0zRycnIwGAxs3rwZgIqKitk0DzzwwLL5KVgY
+      IYBr4EjvAYZcg4u2U5BSyG1Vd8TAI8G1IgRwDZwZPsWpoaZF21lTsF4I4DojOsGCuEYIQBDX
+      CAEI4hohAEFcc00CUOQwYxNToGnYxwbpG55AiQbp7OohokTx+0MEfW7CIiLsmlEUhT/84Q9M
+      TU3R29vL/v37URSFvXv3cuTIEeDyjNff/OY3tLa2cvLkSZ577jkmJiZ4/PHH6enpuc45eG9w
+      TQLwe71MO5xomoqiM+N1TtLb1U2KzUhP/xCjQ6N0D4xjjF3sS9yh0+lYsWIFgUCA4uJiTCYT
+      k5OTOJ1OcnJyAMjJySE3Nxev10tbWxsFBQX09PSwe/duBgYGrm8G3iNc02tQW1omiY4ZJEkH
+      coj0nALC7mkysrNxuvoY6R8mr3YVEleHRMLlMMZYIcsy0Wj0rQdiVPEoijKnfVWLzca1qqbO
+      7f9rSJI0G/KpqiqqqpKenk5zczNFRUWEw2HKyso4e/YsycnJOBwOpqenKSoqmr9sBFdxzRFh
+      vb29SCYLw11dJKblUZyTyKnjzZTU1mJNykQNu/BHsrGaDVetC6SP4WpuBoMBo9H41gMxCuTS
+      6/Vz2tdJsek66STd3P4D0WiUpqYmDAYDbrebvr4+srOzSU5OJiUlhaamJiorKzl16hRr164l
+      Go3S39/Prl27OHToEFu3bp3XtuB1rjki7K7XIsIqigtn/59bWPGGVDmL8SvuMRqNfOQjH5n9
+      vG7dOgDq6urQNI1gMEhiYiLFxcWzaerr64HL0zEE7wwxEnwDMuwa5PzEuUXb0Uk67qq9NwYe
+      3bwIAdyAdNkv8fjphxdtR6/TCwG8DWIcQBDXCAEI4hohgDjG5XIxNjaGqqqcOHECr9eL0+mk
+      qakJWZbRNI3BwUH8fj8+n48TJ04gyzLnz5+fjXp7ryP6AHGKpmmMj4/jcrmYmprCYrFw5MgR
+      gsEgW7dunY1tHhwcJBKJ0NvbS2ZmJgcPHkSn09HT08P999+PTvfefobO6/23v/3t5fRDsMxI
+      kkRVVRUGgwG/309tbS06nY7x8XH27duH3W7HYDBQXV2NJEmYzWZqa2uZmJigtLSUlJQUVDU2
+      A4LXk3kF4HK56Orqor+/fzn9ESwTmqZx+PBhDh8+jM1mY8+ePaSkpFBTU4Ner8fpdDI8PMy+
+      ffs4cOAAFouFJ554gs2bN3P06FF8Pt+867K+l1iwCdTV1UViYiKDg4Pcdttty+SSYDmQJImd
+      O3eyc+dOABobG686Pjw8TE5ODp/85Cdn/7dly+VlYiorK5fNz6VmXgFs3bqVkpISTCYT7e3t
+      y+mTYIlRNfVt103KyElHJoocWXg+kdlgiemK38vNvAL44Ac/OPt3TU3NsjgjWB6mfXa++PTn
+      YmLra3d+m/rcxrdPeIOyYBd+vLOdqdB7v6MjEMzHggLQm+G5PY9z8EQbQgaCm5EFBWBJSCIp
+      KQlFFvPKBTcnC74FGu7owiOBaXryqhgTv8fB4ISHuqoS+jsvENTZKMtJ5ELXIFUNdcgBBWQv
+      1sx8LAaxy4rgxmVBAVRv3Ax9I2CyXlVVGM2J6HGiRIOEJSt62cvgiJf6hgoGhocJuXxY0jPJ
+      yGE2GuzKoIkWw8ETVVXn3nQvRhFhmja3fS1GJ9DQ5rYfw73L57Ifq4g2AFWdOw/vFRZsAg2e
+      a+aVsz2M9HZc1QcwmRPQ6yTg8s6PEhIal+NY0UBVZFR17osY2zD5pQ26n9f6Esf6x1IAc59g
+      ac2/l5i3BohGwmQWl2Jp24++YvNVSpkeG2BsbAx9gg2D7Cakt1GWnUT7ua7LTaCMPHSKd3aT
+      PFVV0el0SJIU07kjOt08u0TGqNWlk3Rz2o/V5nkS0pz2Y1lGS21fp5s7D+8V5hXAzHg/R1ou
+      sWHrreRmZ111LDO/lFuubJJX8PqWQxs3vvZ3EoDY/URw4zPvo0Cn16NEw9inJrA73aLWFNyU
+      zFsDmG05/KcPfui1tr5AcHMybw1gtdmY7uvEERFDYIKblwV7QxoBnnz0MTESLLhpWVAAkqKi
+      JmWgj7iXyx+BYFlZUAByVGZmqp9xd2S5/BEIlpX5xwGCHnomvXzgvgepKi0U0fOCm5J57+uO
+      piNYy6q50HYWUMVrUMFNybwCSExLpbP5JG7XFK8ePysEILgpmbcJVLlmG5VrltMVgWD5WXA2
+      6Mi5o/zHmQlWFqaw4/3v570740MgmJsF+7amhCRUzzhe1Sw6wYKbkoXva52BgrwcAvYh+ic9
+      y+SSQLB8LCiAmYlxylZvJtEcoKO9760JNA2/Zwa3N4CmRHE4nCiqQiQiI0fCyPPEBAgENwoL
+      9gEqNmxhaP9hKlbsoLio6C3HFTnMhY5OFElPrs1MQFaY9qahi0A47KWmvmHJHBcIYsGCAug7
+      c4JT3cNUhiVW1FW95bik04ESJkICUYxUN1TR09nDSM8QhY3rMejEJnkLMd8mebEMMZzLvqzE
+      7hrMV0bvFeYVgCLLWDNyWL/SiKaZ50yjaVFyimrQKwE0nYR/xoM1LYcVG/IIBv0gSRgMYpO8
+      +Zhvk7xYRljNZd+gj901mK+M3ivMWxLO8T5OXexFbzBislnnTKM3JFFSlHTV/1Jn/8qIkYsC
+      wdIx76PMMz3O5EwAS0IixUUFsXqoCgQ3FPMKoKRhMzs31NF1oY2m02IqhODmZN4m0NRQF91j
+      Lu7Y/SfkZmeJGkBwUzKvAHLLG8gurQNitwyIQHCjMa8A7MNdvPTiq5gLSlAiEh/+k3tELSC4
+      6Zi3D5BTUsvtW1eiafrX1n0TCG4+5hVANORkxCnjmxgkOT1rvmQCwXuaeZtARks66zevRdXr
+      sKSlLadPAsGyseCQZsexw5wdn8E5MbRc/ggEy8q8NYCqRIgaTdTnJYApTXSABTcl89YAXScO
+      4rSkY3f4uXXTCiEAwTUxNDTE6dOnCYVCtLS0EAqFAIhEIpw9e5ZAIMDY2BihUIhoNHpVmuVg
+      /k6wojLS28Vw30X2HTwtVoYTvGs0TePs2bNkZWVx/PhxjEYjR44cAeDIkSPodDoikQgXLlxg
+      fHyc/fv3Y7FY3tU5fD4f58+fx+PxMDg4yNTU1OzMY6/Xi9frRdM0xsfHAfB4PHi93tnvz9sE
+      arxlF+/dzS8FNwoGg4EDBw6wfft2WlpaCAYv7088OTk5e1PW1dURjUaZnp7GbrejaRoNDe8s
+      lqStrQ2j0Yjb7ebUqVMoisJDDz2Epmk8//zzFBQUUFJSwr//+7/z13/917z44ovk5uZy6623
+      Am8XEvkanR0dvHc3wRFcL65sjHIlHiQUCrFy5Uo6Ozupra1FVVUCgQD79u3jwIEDVFVVzX7v
+      nWI2m7l06RIOhwOv1zsbS3H+/HnS0tIIBAK0tLRQWFhIS0sL2dnZBIPB2VpiwYnhciSExxcg
+      Oy8fVA3etFS6pql0trcSMtgoSTdzsWeI8oYG1ICCGnaRVVwpNsmLY/R6Pbt27Zr9XF1djaIo
+      9Pf3s3btWtauXQvA5s2bZ9Ns2rTpXZ1Dp9OhaRozMzMoikIwGGRgYICEhATC4TBut5uysjJ6
+      enqor68nEAjgdr++1u2CAug6foBuycpIy0GqNj/EnVuqrzquRoOMTzrIKctiesbPxi1r6erq
+      Z2pwlPzaRsx6ERG2EDd1RNgC+5yVFBcTjbzD9WbfZh5aY2MjjY2XG+vbtm0D4NKlS9TU1FBS
+      UjKb7orIrqSVX7sPFxRAfmUxLYc7KK5ZSUbyHFFhko70vGL0Pgc+vQ6/1wMGE/nFZQQ9MyDl
+      iYiwBbhZI8LCfX1MfuVrMbGf+w9/h6m4+F1958pN/k5YuAmk6kmw6MnIrWZNw1ud0Bks5KeZ
+      sQcTaSxM40LXIDV11USCMgZCBMIKSWaxnJYg9oz+979A9fkWbWfhR4EkgaoQjkbnrIokSSKr
+      oIwrM4VWrVwBgMVoAhIX7ZxAMB9aJIIWg2D8eetyTZUJRiUSDBKBQHDRJxIIbkTmrQEuNr3E
+      i60T5Ovhlns/IJZGFNyUzHtf12/Zxcce2EFWYQYXT4k9wgQ3J/PWAJJOT15ROXlF5cvpj0Cw
+      rIiWjSCuEQIQxDVCAIK4RghAENcIAQjiGiEAQVwjBCCIa4QABHGNEIAgrlm0ADRNZmhoFCXi
+      p/38RcJyBK83SMDjIiSLJRUFNzaLjIzQGO25RL9TJuxzUpCfQU//EEYZQopCY0Pq25sQCK4j
+      ixKAHHTRMWhHiUYIW4tITkllYtLFyMAIuTWvh56JkMi5uVlDImN7jRWkOfIQq7bFogSgN9nY
+      tHEdQ4ND5KQlcKqphbK6OmzJ2WiRGfwRFatZhETOx80aEqnG9BrPfQ0kYiOCRXkq6Q3YbDZW
+      NF6OBMvKL3vDUbGitODGR7wFEsQ1QgCCuEYIQBDXCAEI4hohAEFcIwQgiGuEAARxjRCAIK4R
+      AhDENUIAgrhGCEAQ1wgBCOIaIQBBXCMEIIhrFjUdWlNVui+24VEs1Balc6F7kKqGOpSgghb1
+      YMsuEpvkCW5oFhe5IEmUVNXS3d3H6MQ0K1fV0Dcwgn/ajTUnnyz95YghTdNmt758N1tgvh2q
+      oswdPRWjcCFVVee0ry2wAdy7QdO0Oe3HsoyW2v5cZaQqS2sfYhcRtrgmkKYyMjhISUUleum1
+      gpV0GIxGZPlyGJv02tZKkiRd/lm0y68za/NNP7GzP/c5YpaJeezHNg9z2Y+Z+aX3n6W1v7gm
+      kCbjckzj8Eaprcil42IfVfW1yJkKOsVHIKKSZNajqurrzuti1+2QdDp0c9mLUflI0tz2YyVj
+      CWlu+zG8wHPbj+E1kN6aB0kXQwHo5ikjboCQSJ3ezPot22c/r1//WhhkIoBtMaYFgmVBvAUS
+      xDVCAIK4RghAENcIAQjiGiEAQVwjBCCIa4QABHGNEIAgrhECEMQ1QgCCuCZmAlAjAS52dBKR
+      o/h8QYLeGcJihxjBDU7MFnLv7+0lKyONnoEhDFEIKVEaG1JiZV4gWBJiVgNoOiOpGRkQDTEy
+      0I0x0RbTWY0CwVIQsxogLdnMqaZmSmvrSLZmoUZc+MIKVnPsdjsRCGJNzASQkV/Gtqt2iMmO
+      lWmBYMmQtFjF983BlZA/VVVngxrCcogx92hM7BemFmPUG2fPdaXJNejsj8lGdhlJmdgsl/sx
+      b8zDlG8Sf9i3aPuJpiRyknPfYt8b9jDtsy/aviRJlKaXA1eXj6zKDLsGF20fIM+Wj8WYALye
+      By0cJjo2FhP7xoICJJMJuDoP0cEhNHXxmwkuqQCu8MZN8paCKzHHsdxc7s3Isowhhpu/Lbd9
+      RVHQ6XRL2i9byjws1TVelnEAg8GAhEYkGuXNclNkGQ1QFRlFUZDnCKhWFPkt37uCpmkobyoY
+      TVOJRCKo6jvTtqbNHXj95jy84RvI0cicvs5zBuS32Tr0zfYVRSYSnT/fb+ZyGc2fWK/Xg6YS
+      jcqoqkL0Df4o8uXvyvI7eKJqGrKioCrybPkqioyqXZ0HVVWIRN56vedDVRWUBa6XJElz3vza
+      a3nSVIVIVH7zwTfl6a3XQf/Nb37zm+/MxcXhuPgK9332O9x5xzYunW8nHI1w4kQzv//FvzKs
+      SQQGz3Hq5Em++8jLbKhM51R7P9kpOvbvb+LxH36DaWsBhFXsE8PYxwaYcvlob24iLCv85Je/
+      Zcf2TbPnOvDUL3ih6SKpGVmcOXGM5PRkml49yPD4GGOuMDOjHbR2DKNF/YR9HppPvsy3vreH
+      jWtqOHj8LIkE6Rq1k52ZhX6OR4Sj+wTf/dcnSUrJYLzrDD5dEr1tp+joHaK3dxiz5uHQ8RbM
+      ZgOuGS+9vRf58hf/hsaNWzjbdJiEpATa2tpJyCgiyfTWJ7Ic9vDdb3wbDxYsEQfnB51EXUOc
+      aDnP0MAA5gQjxw4dIWywMDU6jsM+wj/97f/Cl1RGcOwijpCOsaEu/GE96anWWbu9p5/ms1/9
+      d4q1S3z5l4eoTZHpngzy469/HiU1ie//46/IyC9Ecw/T1u/EO9FD84Uuhrq7saVaefmPB9AH
+      hvnc135Cmt5H2Gij9cRRus81YyxaSZp5Ngf87B/+D912H6mJJo6duUCKIcCBI6eYGBshKhk5
+      f/o4o+4wHsc0fucEL/z6B/y+PUJpopcLQ26CzmHGXSFyMtMWvK/GOl/hI//1h9SmTvHf//k5
+      1uQZuTDiJuJ1MDbQxg9/+QdyszNwDl+id8rN1774BcpWbSU343LI7tLVuW/i0CuHqcyVOHCk
+      ieeeeYHV5Wns/szfcOnwq8hjp3jmkoett91Jw4ocHvmX7xNOL+HEH8N86P/5G8bPHaCxLIE9
+      vz2O3t2Oe7STWz70Z/SePsmzh1pJS716R/qWiwN8/Ivf5MKLvyKYUsLPfv4jJLUMg8lHwP0K
+      BqJUZefy/P5x3l9TypAxg7r6lTzxk+/hMVhoP6onUrSWVfX1c+alu62JdXd+lPrkQR5pD+E9
+      /C/4/YlYk1RypQAXWnVUNryPf/jeP7Fu3RZ6HR5Kq+rwtr/IM0d6Geq6wJPNY/zqp1uZK4I/
+      EhhGttbwgTtv4Tt/+y0ybRZennaRnZVFji2RPZ3niKqFnGr7OZGAjUT9DFkllZTbwvzo5/9B
+      WXkdnW1NfOEb33uL7dJsC02DUcrT4PSZZl48NcD7ympZVV/Oobxh/vjkz5ia9JFTWI4/4KbI
+      lkR6iZGLz7oZ73iViYbbqKlvIDA9yLOPt7H9Q5+n/+kfUXLnG06ieOhzmvj7v3mAH/yfv2Vl
+      XSb//ONeCsvrMFss/PHEGeSQkWyO0B81sc4awVJURGN5I//0j18mtWI9/oGzbPnYl2iseft7
+      q64wkRcuBKnPMXL69GleaOpgVYGJ7NqNtB18mpWrGzi493dklzdSUFFDY2X+7HeXrQY409HL
+      pz/6IO0Xe1mx8X3cvqqQE2cuYU1MpKg0G1kxU7t6EwMdbdSUZpOUXcHamjzazg1TVZnGsM+I
+      t78Ta2YW5RXV7Ni+gvaLY2Tm5ZGTncmaxtdv1txkiWdfOkhOQSnnL5xn1dq1WEypZGUmkZRg
+      wTHSid+Sx7aVZfQP2SlfsR7/aCc1NeVEE7Ipy8nktvsfJNc69/MhJ7+IV55/Ei0pG8dAO7mV
+      q7AlJJGbm0FuqhVfwMXZXi93v387I709pOVXUJjgI7mgmhl3mM1rqsmp2862hoI57RtMqYx3
+      NdE54Sfd4MetS6MsP52snDyyM9KJqhGaT55l7ZY70PuGICmDdfWlTAZNGKIBVq5dS1pOMbtv
+      33KV3aDXDiYbimQmIyWJaMCLJSWbbY1FjPo1DDorGclGCnJSySlfRUqSgfycXLLy0/C6omDU
+      UVq7mqh9kLTMdEor67l0/iy2pBTKV60l1fTaiXQW9L4BDp/tpig7lfYRHxvqS7Fl5pOelo5O
+      inKp9QwF9RsosylMBzQ2bNtMR+cIpek68qvXkJmexr333cvbvUWPBFzIhmSiio7cjGSiATeW
+      lGzKyyu5/947iGhmNEUm02qiauUGipKi+M3ZFGRefrmxLJ3gG42TTUdZs3E7piXqM/e1HcVS
+      vp385KWxH5oZ5vyIyvoVJUtzgqUm6uXomT62b151vT2JTwEIBFdYtibQ26FEQ4yMjmMwGpm2
+      TxLV9IR9Ln76o5+xavtWjIu0r2kqU+MjyJjwuqbwBKIYiPLiE4/iTS4lPy3xXdmbvnSUr/zL
+      s/hGz5OQVUrA48LRcZg9x0epLEgj5PejKjJRJYrd7sRkkHDNePjdz/+NlLpqks0WdO/ylWQ4
+      4GF80oFRpzE5ZUdntDAzPc7P/+0RNm7ZtPhXeprCxPgYMjq8Mw48gQhEAji8QayJie96RTnX
+      QCv//PDvUIxWUpMshIIBgn4PTrcfnSYzZXdgNFtwTI4jmRLwz0zT1/wKT54cY21d6duUj4uv
+      /89vcbqtjZrG1bjsdswmPWNjE1gsZiYmpjCbjUyMj6MzGvHMzKCoKlN2J3se/xXZuYVYk5OX
+      rxP8drgG2vj6V79LzcbbcbsdgAWzXsU1YScWK00qkQA///63GTXWkOi5hMmaTlqSmWg0jG1D
+      9F3biwY9KEE3p86PMTb8Aw6d6GD71gaGdZX88IfHYbwHffkKEvUREg16JIOBl472UWry0voT
+      jX/4f/+Sd7tucOepV/jm9x/llls24lU0dKoFt2wh4hqLySppasjFv/7/32LSVIQ54kcvaWQn
+      R0movJ0v/Olu3u2Se8aEZNSAh3Boih/86ACEx9GiHpLMGUSMMqbkZGSPgpSajsmQQMuLD7Np
+      620Mm2pQNVi4hSozPjZBqkHHi499n6f3n+P229bTNuDlloo0nj54hAcf+hRHn3uUglW30Ha0
+      iVUN5TTu/ABjY8M89dN/YscXv3XjxAMMXjpLbkUDkXCYovIqzDrQ5DCKpIvJQlnQXEwAAA1j
+      SURBVISyb4RpJZckKUBqVgE56QnoJYlAWEZ/DUv5STo9G7Zuout8B9bkVDbcfjc7btmMLuij
+      LstEVmMtnUMhKnPTcLj8JCcncv9HPk1VcSFJkgdv+N3nobOjg/KKciIyVNXWoCkaEb8HnXGx
+      9eNlAs4xfIYULDqV1KxCcm1mGtdv4nTT0WsSmBKNkpWTwZmzXfine5kJayiRIM6gjNUoMTEx
+      TVZ+Hn6XnUSrjdpNu/izj+yGoGfBMYHLSOSV1ZBqUJD1FjbtvIc1a9aTGR5i1K+x4dZ7SAlN
+      kFxYgRYJc+vuD7OtsZjx0Un0lmSqy3IIhlXRBxAsL88+9VvuvP8hLh59AVv9dqpyru8SmkIA
+      grhmWZtA//HLH/HrJ5/HF7p6OFpTw5xpaV+4mtU0WlvOLFg1nj/yLF32K0PfUZ567DHGZvxv
+      61fY62Dvy4cY7mpj0vP2/QHf8Dm++6PHiChX+7L36acJA2PdbVw8e4oDrf1v+e7+p5/GPZ9h
+      2c/Tz700+3G6r4Unnj/6jvpApw/sY9jhpLn1/DtIvbQc2/d7fv3kM7iDc0+t8NgH6Rq4PNlP
+      CXp49oWXaD7TOnv8peefJjDHZdA0jd/+9P+judf1lmND547S3DN11f8izmGeP3h6QV+XtQb4
+      yl/8GXU7P4w02U7fsIuihhX09/dhTkpFHzUSmjxHwJJJiU3jWKeDXZsq2XuwjbtuXckLp5ys
+      rEkiSfbjmlGoW1NNX28veXX38JkPbgNg37/9b8YTV9B9vh1rYQFnXznJ/fesYmgiQF1lLo/8
+      /jilVTkkh8MkJumo234PB574BaWr3sep1jbuWZOHlF7N0NAAlVVlNLWcJS2jlm986c+uyseL
+      D/8jf+wN8JH7t/O97z/Oxq21pOc20n16L5LeRGlxFiE1iXMOMxsShzjU7WPnunKktEpa/vAI
+      d33u0zz18LP8xVe+zvqaNwyGRZx89bs/xyy7iPpkCkoMTJtXg6MXc0oekcETRPIq8A1Nobcm
+      ohlTuLXKwhNHBqgwOSjZ8SAT3QNYdQE80QTSVCeTspfd/+W7bCxOWK7LzOM//A76sk1YnRdo
+      GXBSUFjO8YN7WX3LA7gnhlhRmUrQUkfv8d+iy19LNOjCrJMweIbIXr2TI888zv0PfZQXXzrK
+      n//111hZmgGAGp7kO9/4DlLRDiyTR5iKWrh7xxZ+9ehvuWXrGkKGRFIycxi72MGl4Sk+sGMV
+      ew51c3e1mRFdBX/1xY/x6q9/wiMHB3hfZRIeZ3B5awBTYjLVleXIssKq2lI6OjpJyswl6PPh
+      9wfAkkZWskT/sJ1du+/FPTXB++6+j1S9zIc/81k0v5+QrKc+P4ML/QNkZKcTfNOjQomEqK5f
+      gT8iU1W3AmMkTF6WlYkpJzs+/GkyjHqqSwqprs7l9IFjmLIziGCjoqQQvRJgbGSKouJsxsen
+      yK6oIeJyXGVf0xROdfRTbHGz/2g763b9J3INUFpRitmSSm1xIuNTfoqr6inMzWHC7uLu3Xfj
+      dbmprK1mRW0t2dlFbFiVy4kz3XOWU1izUJtnwZSWR2NtOWFdMrLXSdSQxscfupvMwipycvMw
+      KX6a2zoxaX4qqleQm5WG3zODO6LDEPbi9iusXFHEpOPta8FYsnLLLfQ3vcSFITup6SlMDfaR
+      VLyB9WWJqAlZpCXqGB04j0e2YZ8YBU3D7w+wfvNmWs+0U1dXQ15xBfX5CbR1vF6L9hzbhyOh
+      gtGu0wQ0C0U5No4eOkJGWgqTTi9Ztdu4uPcJNt33J6wvT2LEb6C8qID6tZtw9pzG5Ylwsr0P
+      g+zFF9FYWZG1vDXA6EAPMyGN7PQUzCYDHvsIP3/0cRq2/2d2rC0HTUGnkzDoYMLhpTA3g+Gx
+      SbIz0zEmpRLyOpGQMOp1TA538Ks9v2fXn/5PbltVBIDPNUUUE0gSEUUGWSMt2cjAqJOi/HSC
+      qgk56MWk16PTa0QUHTMuJ2kZOQQ9dozmBKwpqQwPjlBSko8vFEGNKOTkZM7mQdM0pqbsZKVZ
+      mXC4MSckYzUpDI25SE5OwGKAiALWlDTGR8fISElgwumnMCeNcbuX3IwE3AGFgNtJVlEFaVbz
+      6wWkKUzanaBpmPUamt6A3pJCYHoIEjMxyEFs6Sm43QEk6fIsTqIB/IqB3HQr9hk/FrMFoxbE
+      p1qw6hT0Fj06UyrJCcv3xts+NshMSMdgy4t409ax632NjA/0Ys0qRPZMopmSSLAkMuOwY0m2
+      YdDp0FQVLeIjrLOSalHxRcDvniG3uBxb4uU5Fl7XFLqkLAIzU6/NPtUhqQpOd4CUFCtqyMPD
+      v9vPlz//Cfp6B8gtLsVtn8BsMuIOqlSWF2EfHcQrG0hJNGE26EQnWBDfXIdxAA9f/x9forOn
+      ly//5RcZ9UbweH1Eo2F8Ph9RWcHv8xKOyISDAXz+AHI0jM8fJBIOEwqHCfh9hMJv31ntOXOA
+      H//sF7R2jRCJyoTDIfxeD0FXHz/55dNEo1F8Pj9yNILX68Xv9xOOLDxvf7loe/k3/N33fsBT
+      +88SDgYIhiOEgn4CoTDhUIBgKEIkFMAfCBEOhwmFwoSCfqaGL7DnqZcJhiPXOwtLiJO/+vMv
+      MdDTwV/91f9i0hfG6/MTjYQJBMM89qt/wxsIEQmH8AeCHHj215ztGuXYiWZCQT8+fwBFvnzN
+      r8NIcBS/e4bDB1/F4fTQcvh5fvSPP+C+++9m3BEht24t40eewJXaQLYxxLTdRU6awuHT49y1
+      rYoxcwqO1jY+/MWvc++2xgXPpNNpTE/PEJps5ycHXkJ1jXGkqYP/9rkHOHzoDMmh8zz+1DHu
+      3XUr/dPTmJOySEjI4Ztf/tQylcX8zEwNMe2JYhno4M9/+r8JZdaSpYyx5q4Pc/q5hxnSV/LJ
+      rZn84A8XuHuFFZ8hD8mgZ+fWes4cOc65S538/Vc/f72zsURECDkmefHQSbzuGU68/Dt+/JPH
+      uHfnZg6MJFCnttLv1KMO7Of0OGwoS6E0mkXPhdM8/cSjRGQj9VWZuOxj12MuUJCzZ/vouthN
+      UVEmY6OTZGaaUHRWausb6eu6QAg9WlRDj0IgGCYzLZnb7noQZqb5z5//byQFpmm6OM2dt6xb
+      8Exuh53pqQGm1EI8rS+w5U/+K+bIAMPBFPDOkJudQHHjrdSka+izcrGlF+K3O9hx66YF7S4H
+      Q+3H8OozCcgqWljhwQ89QHFGMi8daSY9LY0PfOB+mk+eQm80kp6eyec+83FazrRTVJhJIJpE
+      OOxj561br3c2lggf7eeH6OjopygvmbHRSVLTTEiGJD74qf/BRPdpQiENo17hjvs+SHmWCY9q
+      ZcYxgcGYSEGSnpBeI+T3Xo8+wOUwtTcGOCuKMhszrGmgqjKSGuWPe59jOJDIZz+6m6isYNDr
+      0en1yJEIkt6A0bDwbBFVuRz6p4acPPbkIT7zXz6EHIlgMJhQFfmyrdfilWdnemnaksbmvlNU
+      RUaTdKiKgoSGioSkqWiSHh0qiiahl7TLv3WXwwUVOYrGlbjfGyMfS8Ob7yENRdXQ63TodHrU
+      2WB5DUXRMBr1yLKK7g1TXrrbjvPHw+dEJ1gQ39wwk+FiycFnHuFk5wR79/yM1v7FLy+y3Chh
+      D7/b8ygHT124PDou+2k+2/GWdANnD9IxHqS1uZkrz7xD+/YRWE5nrwPj3W08tuc39E145kkR
+      pLn5wuynQ/v2caHjLA7f5RccXadfptdxucRuyjqys7ud4ISE48xRSmwV7P3Z8+Sv30pPUwfJ
+      xQWsztN4qXWSzVWpXBqYory6lNNHm7nlts08+XwT9Q255Jdt4JMfugfjdXhERAN2ms8N8LGN
+      O3j4n/+O0pVraD8/wsFnH8NhysYamiEU1VGSMs1EjoLVeY7DL/2OlOrtnHjyEbz6CK++1Myn
+      //ILNBRnLX8Glpj+Cy24lWT8I2f42r8cJL2wEnm8DU9SFZXJfvJW1HOh2cHoxVc50hUmXXNR
+      MJmJcuQkIx4jNu9R1Ho9nubnbs4aQDLn4O1rIb2igrELLTgl6O7sJiGjnKB9kGOnWvHaB2i/
+      NEp2qomL7efIqd9IljHE2ns/wp3rG+loO004GotIhHePwZzKB+7bwS8f/hmjjgj1ZdlMjw9x
+      acTDlnX1+GQTuVKE7OoqSktLcU5PU9vQQMe5Tsprqikrr6QkG9oujlwX/5easjXbKZQHeGb/
+      KcwpmTiH++gd97BxdQ2j0z5WVBcwPT3EiTMDzIz0EQI8rmlSi+vwD54hNa+G0tJSGutrb84+
+      wPjoCHI0islsQtbpmRwdJT0zC51kQVOCyEE3fs3MVMcxfvNSK1/5xtdwDPVRXFKEZk5BcQ3h
+      CJtZWV/JNYQKLBpVDtLa3EpmaS3m8DSuiJ4EcyK6sANH1ERaogUTKmm56VzqGSfNakYJzhA0
+      pJObKOMKSTinJqhYsYbMZMvyZ2CJ8UyPcr57jOwkP4/tvcjnPvsxoo4h3FoSBckw4VewmpKI
+      +u2EpUSSE40YjaCqEsPjM6xuKKZrcAp9yH1zCkAgeKfclE0ggeCdIgQgiGuEAARxjRCAIK4R
+      AhDENUIAgrhGCEAQ1wgBCOIaIQBBXPN/AWI5V7RJM9w1AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 6' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dd3Cc52Hn8e/2gi3YXXQsQFQSBBtIilWiqGIVR4mdm+QuN3Fyjs/JzU3m
+      Jsl4LuUmubMTJ0rOkeWWXFxkRyWWZEuWRJGSKFIUKwiCIACCBNEIom/DLhbbsP3d9/5gCIkW
+      CUgkCFLc5zOjobDleZ53d3/7vO++z/s8ClmWZQQhTylvdwME4XYSARDymgiAkNdEAIS8JgIg
+      3Dbt+3/Oy2/so2do6rqPmTh/kt7J8McqL+Yd5pv/9K+kY2O8c7TvYz1H/bEeJQi3QDwSIac3
+      o9MmeeWFl4jnMtiMKqrXbKHvXDeyrKOl3khU4WdP+wHkgmJs6hRNaxuY8sZxjQ1TU2ZlYNxL
+      89YHqdKksOqz9AxMEI7qOHX4XcZDMmvL9fR7pslIGrLouH9tKV19Y6zcdL/oAYTbR60t4L6H
+      HmFltQ1JY8em07L9nkYmpzwozBVUaWJ4ExDyjmF0rkWKerCZNLz51nHMigCnhwNIKpCMJayp
+      LQOgvGEDrqGzyIkgZwcnGDh7jmn/LM0tzehtTjTZCGdajzGXVZDNZEQPINw+lXW1dB/ez+yq
+      Vaxd24CWBAU2G6ucM7zx7jFKtu5kQ42VpNbGeO8ZChpacBZLnB5P0bhuBw9759AXOGhptqFQ
+      KNBZillZV4SuVMGMoojwpJL6lc3UOh0U2Owo67JkSw2UFW6mveciFpMBhTgRJtxxsin80RTF
+      NstH7pp2jaOzlWM1apekqmUNgCRJqFSq5apOEBa1rMcAorMR7jTiIFjIayIAQl4TARDymgiA
+      kNdEAIS8dlsDEI1GGR0dJZfLcebMGSYmJohGoxw8eJDh4WEAEokER44cYWZmhkuXLtHd3Y0s
+      y8TjcUZHR29n84W7wA2fCZ7xjDE8MU3D6nVEPMOEswaa68vpPXeOohWrMSgz2K1GfLMpKkrt
+      H3m+LMtMTU0xMTGBSqUiHA7jcrkoLy+nuLiYsrLLp7Z9Ph/V1dUcOXIEWZYpKSlhfHycixcv
+      4vP5qK2tveGNF4QbDoDe7KC5Xs2U30s2q8emT3Opf4iypk34RwaZ06nwu9NUNa2f//1fluWr
+      zgU0NTXh8/lwOBycPHmSiYkJiouL6enpIRKJsGvXLsrKymhtbeXee+/l7Nmz9PX14ff7KSws
+      RKfTIUkSSqXYkxNuzA0HQEpE8URl6pwORsdD6HQKwqk4OoMWjUpBMh4mllDToFEhyzlyuRyy
+      LJPNZufLaG9v58iRIzgcDnQ6HSUlJRgMBgoKCgiFQoyMjNDb20sgEMBkMqHVapEkiYaGBkZG
+      Rujv7yeZTKLVLs1pcSH/3PBQiLOnjhKXtThrVxKaHCSa07O+qYqenj4Ky+ux6HKUFZkY8yVp
+      rK1AAWSzWdTqy5mTZZlUKkU2m0Wr1ZLJZNDpdCgUivkPdXd3Ny0tLaTT6fnnAej1emRZRpKk
+      q24XhE9qWccCfTgAgnAnuG2fxkMdg/x0f8eSlPXjv/oCCoViScoS8sttC4AvGKH9wtjtql4Q
+      AHEiTMhzIgBCXhMBEPKaCICQ10QAhLwmAiDktbs+AFNTU0QiEcbHxzl69Ch9fX3IsszFixfJ
+      5XIARCIRpqYuz042OjrKhQsXiMfjnDp1ilAodDubL9xid3UAcrkcfX19TE5OYrVaKS0t5dKl
+      S3i9Xp577rn5cUmjo6MMDAwQCAQ4e/YsFosFj8dDQUEB7e3tt3krhFvprg6AUqlkw4YNKJVK
+      rFYrwWCQnTt30t3dzcaNG5EkCYC1a9ei0+kIBAJ4PB4OHTpEZWUlfr+fDRs23OatEG6luzoA
+      2WyWw4cP09raSjgcJh6PYzKZkCSJM2fOMDw8jNvtpqOjg1OnTiFJEna7nUwmw9tvv00gECAQ
+      CNzuzRBuods2GO7Fdzv4u399d0nK7X3pL685FkiWZYLBIABWq5VcLjc/dDqdTjM9PU02m8Vm
+      s5HJZDCZTPO7RUqlkng8jl6vx2QyLUk7hTvPXT00U6FQ4HA4rnmfVqvF6XQu+Hyj0XgrmiXc
+      Qe7qAFwMJommcjddTqFeRZ1NtwQtEu40d3UAwkmJYFK66XKUYqT1XeuuPggWhMWIAAh5TQRA
+      yGsiAEJeEwEQ8poIgJDXRACEvCYCcJNkWSYUCpHL5YjFYkxNTZFKpYhGo6TT6fnH5XK5+aHV
+      8XicZDJJKpXC6/XOD8oTlp8IwE3y+Xzs27ePWCzG/v37GRwcJBQKcezYMfr7++cf19XVxfPP
+      P48kSfzsZz/j9OnT7N27l97eXlKp1G3cgvwmAnCTysrKaG5uBi6PPXK5XCgUCnbs2DE/aW8s
+      FiMWi7FixQr6+/tZt24dKpWKiYkJPB4P0Wh0wTrm5ubmp4KXJImhoSFSqRQnTpxgdnYWuDyN
+      /PHjx4nH43i9Xk6cOEE2m6WzsxOXy3ULX4FPNxGAmxSNRhkfH2dycpLGxkaqqqoYGRlhZGSE
+      8fFxotEoXq+XS5cucezYMYaHh2lvb+fs2bPU1tZSU1PD5OTkgnVMTU3R39+PLMt0dHTw3nvv
+      0d7ejslk4vDhwwAcO3aMkpISjhw5gs/nQ6PR8Prrr5NIJGhra5u/+k242nXHAo2NjQFQU1Oz
+      TE35dMpkMlRUVABQWlqKLMs0NjbS19dHSUkJ3d3dbNiwgS9/+cvMzs7OD71OJpNIksTExMR8
+      D3I9q1atwuv1EovFmJ2dxeFwYLfbaW1tpaamBlmWaWho4OTJk8TjcbZu3crZs2d58MEHOXjw
+      IKOjo/OTDwtXu24Aent7ARGAxdjtdrZt2zb/d2lpKQD33HPPRx5rs9kA0Gg0aDQaAAoLCxet
+      o6uri9bWVvR6PfF4nJ6eHoxGIw6Hg1AoxOTkJDqdDp1Oh9Pp5KWXXqKqqopoNIrZbGbFihVi
+      CvnrWHQ06Fe+8hWefvrpj9zumRhm1Bdn5z3NnDx6BJW5mEanjXP9o5gclRQaoNSqw5vU01hV
+      fEsaf7tJOZmLwaU5gC03abDqVde8r6mpibq6OvR6Pdu2beNzn/scKpWKaDSKXq+nu7ubzZs3
+      89hjj2E2m9myZQvZbHY+JAaDYcHJg3O5HK+99hq1tbVs3ryZPXv2oNPp0Gg0DA0N8fDDD1Nf
+      X8+BAwfo7e2lpaWF0dFRlEolO3bsoL29nfLych5//PHr1pPL5eZXAFKr1bjdboqKivB4PEiS
+      RG1tLel0mt7eXlQqFXa7Hb/fj81mw2Kx4PP5WL169ZIvhrJoABKJBPv378dut7N169b528ur
+      G4gmh5BzOdKZDDa9kblglA333Y934ALhYJApXwH379yMJEnz8/lfuQBNkpZun/TDi2582FJd
+      7JaTc2QymY/Wm5OZiKSv8YxPrkAtY1Rd++34cI9xpR2SJM1fsLN582bg8gU8kiTN9wYABoPh
+      quddz65du3C73bjdbjQaDWq1mvr6eoaGhtDr9eRyOT7zmc+gUqlobm5mfHwctVpNbW0tsiyT
+      TCav+z4ABAIB2tra2L17N1qtlmeeeYbf/u3fxuVy4Xa751f8UalUdHZ28sADDyDLMu3t7UiS
+      RHFxMel0mrVr136CV3Vx1w3AlW69rq4Ou91+3S5UVkDLlvsIuIeIpBTkQnMkUllMhaXYpASB
+      aIoSywf7nlcuiVSpli7JarX6mt88CsXSfDiVCuX8B/Cq8nMykFySOlQq1TXrmIlnGQsvTS/T
+      UmpEdZ2LG6586M+fP8/4+DiRSIT169fz6KOPMjY2RnV19XyPI0kSTU1NTE9PMzg4iF6vv+Yu
+      34eVl5ezevVq1Go13d3d7N69m4KCApxOJxqNBqvVikqloq6ujkgkQn19PW1tbTz66KMcPXqU
+      S5cu0dzcfM3X6Irh4WFMJhNlZWV4PB7S6TR6vZ6uri4effRRVCoVXq+Xnp4eHn74YU6fPn39
+      ABQXF1/17y+bHL5AIBBGU2BDEfOSVBexemU5gxfOsWLlOtS5JBZzAYFgGBkd4pqSG5OScswk
+      luZE2fX6w2w2y8GDB8lkMjzxxBM8+OCDBAIBRkdHmZiYYNu2bZw4cYL6+nq2b9+OSqViaGiI
+      srIyNBoNp0+fZmZmhnvvvfe6u0DBYJDOzk58Ph+xWIzu7m5CoRAul4v169cTCoXQarV0dXWx
+      ZcsWUqkUc3Nz2Gw24vE4VVVVeL1eqqqqrll+LpfD7/cTj8cpLS3l0KFDlJaWEo1GWblyJb29
+      vaxbt46TJ0/S0NBAd3c3FRUVi10Un+To4U6237cNjVqF8iYXoVjui+LPuOeW5IqwEqOalrKP
+      Xh+czcm8P7bwb/gf19piPRXmj/ay7miaXv/S9DIP1ZhR38DlbZlMBoVCcVOr+yQSCXw+H1qt
+      loqKivmTfz6fD4Dp6WkaGxvRaDQYDAZkWZ7/Bo9Go4TDYSoqKhY8BggGg7hcLiKRCJFIhGg0
+      it1uZ/v27XR3d7Njxw6OHj3Kxo0b53uuxY8BAuPsedPPph27aaiw3fALINy5RgJzhOMLHyN8
+      HGa9moaSa8+gYTAYrvpF8coxSnV19VX/XqFQKNDr9ZfLNZsxm80L1p3NZtmzZw9+v59HHnmE
+      ubk54vE4Wq2WZ599lieeeILx8XFisRgvvvgiO3fu5O23314sAGo0WiWp2QipnNiJuVt1T4QZ
+      8sVuupwVDsN1A/B6t/umywfY4LRSV1zwkdvVajVf+tKXrvs8v99PKpXi85///PxtmzZtWiwA
+      cdyeWfQOMz73LGuci/9mLQjXMuC9+YABVNkN1PHRACzmeseyiwTAzOOf/zWmXC6qVlV84koF
+      YbmcnojguYGfpBcJQJI3X/o3VmzexOyFKR7aXn+DzROEWyuWkphNXP88xPUs8GO8jCyrKSou
+      5EJ3P8UV155hTRA+zRboAeK8+bO3adj+OLuKbJgtCx+FC8Kn0QI9gJGdO9ew75UX2X/gAKNe
+      sVCEcPdZoAeIcrYvyB//2V+gV4vLBoS70wKfbAuPPL6DbFJcrifcvRb5as9y9MB+Jj1+4qmb
+      P1MoCHeaRQKgIDc3w/GjBxlyh5enRYKwjBYJQBpvIER5RRF+18zytEgQltEiATCydl09w4Nu
+      Vq+pWZYGCcJyWuBXIJl3X30BV0LPb3zhC9iN178QQRA+rRboAXyE0hXsWF1C59kBEuIgWLgL
+      LRAAM1ZDnGF3hLh/HM/s3PK1ShCWyQK7QAU8/h8+TyadRqFUolBee8YCQfg0W2Q0aIIX/unb
+      VG3ehErXyEPb65anVYKwTBb5FUhFod1CX1c/9jJxOaRw91n0RFihowSb3cboQC+Z3LItKi8I
+      y2KRACQJZ2385mc3c7HjHJ7E0syzIwh3ikUCYKK5Rs+eI0M88Z8+S4lOnAsQ7i6LDoXoOt3B
+      jGeSOaVZDIsW7jqLfKIl1HoreoOCSHBpJoAShDvJgpdEvvvGfowlToqMZu7ZcO0p6QTh02yB
+      HkDDyubVWHUwPtzLxcng8rVKEJbJAgFI0naklelYihWr1lFXbr3q3lxOIpXOADKZdJJEKo0s
+      yyTic2Sl3PxU6AtNmS0It9sCu0AaKqvK8IRjeGNhJirrKDTp5+/1uycY9UbYunE1XR2nyaCm
+      rrqEUdcsap0JW4EKh1FFWGmjrsK+DJsiCJ/cAgFQ0bJjNztNRtQq5UdmXy511hKODyFJCeyl
+      9VgK0njHgqzZdg++/j6iIT9T00YevLf+rl4gY6lIknTNOpZyDeFMJoN8jdmhl2oBPTknL7oQ
+      x83KSdd+L3I3+F4vOBYoHPQzEwRQ4Cgtx1rwQQ8Qj4WJRCIkU2VEQl4SMRmrw4hrdJJEKoe5
+      sIxydZapQARnsWV+fQCxQMa1XW+BDJVKBpbmQ6XRaK45PfpSLTukUCoWXMBiKShV134vbnTq
+      /gUCkCM86+LE6RFamiyMBBR8ZmvN/L3xWASLxUIio6ChppI5WUe5w4JrcpwVzatR5tIYDHqi
+      MTGMWrhzLRAAHes278A94WLMFab5XstV9xaVVVFUduUvM1cOkZ0rrowYvVy0ZZF53QXhdlqw
+      7xu80EMqk2MuJaNRiYWWhbvPgscAq9ZsQk6n0HgiGMQ4IOEutMjRT4RjR9pRKNK4l2iBA0G4
+      kywYgFl/jMaWFjLJFJXlloUeKgifSgvsAs2x740DWO0G6rc8Sk2JOJgV7j4L9AARpsZ9TE1N
+      sOfnL9I3EVi+VgnCMlmgByjjL77+58vXEkG4DRboARQoFJf/y2VjuD1igQzh7rPItCgysgwo
+      NBQUiHmBhLvPIgFI8+bLr5CSMwRSVn7vd38do7gsUriLLLpARiqno6m+grh3mhkxP6hwl1mk
+      B1BTaICpWAFf/G//GZtBuzytEoRlskgPoOOe7ZsY7niPPlf0mkNpBeHTbNG5QTs7+3nkP36Z
+      6oqS5WmRICyjBXqALP1dPYRiAV59+ed4Q/Hla5UgLJMFAhDj8MHjZLUFVNasoqa0cPlaJQjL
+      ZIFdoEL+8M//lNRciM6ODi65g6x0OpavZYKwDBY5BgBdQSE7H3hkOdoiCMtOnNUS8poIgJDX
+      RACEvCYCIOQ1EQAhr4kACHlNBEDIayIAQl4TARDymgiAkNduPgByjou9XbR39hCPx+npbMc9
+      EyMYDCJlknj9Ymkl4c616Figxcg5ibSqgG2bVzE9cgFH/XqmR4fQF+iZcScorl+7FO0UhFvi
+      pgOAQokiFebwkWOUWSyUVuvRqpXEQz4iKT01erVYIeZjECvEfDzLukLMxyHLWdJpCbVGS7Gz
+      mN7WY1hLa7CbzTTbCxgZc7OytkKsELMIsULMx7OMK8R83AbpaNm6Y/7v+0sqr7p/lZhTV7iD
+      iV+BhLwmAiDkNREAIa+JAAh5TQRAyGsiAEJeEwEQ8poIgJDXRACEvCYCIOQ1EQAhr4kACHlN
+      BEDIayIAQl4TARDymgiAkNdEAIS8JgIg5DURACGviQAIeU0EQMhrIgBCXhMBEPKaCICQ10QA
+      hLy2pAHIpmJ0tp9kzDPL9PQ02VQMl3dmKasQhCV185PjfsjM5DgVa+7BPzxAXKtk2p2hpnn9
+      UlYhCEtqSQOQk2S0Og1qlYJ0MkYsoUCrVi1lFYKwpJZ0F8heWU5/2zEwOnAUV7Jt0yrGx90s
+      3STigrC0lrQH0Jkc3Hf/7qtua6wtXMoqBGFJKeSlWkViAR9eIEOlurxL5J+NMTU9uyTlb1xV
+      Nf//sizPrxUQS0tkl2DtB41SQYH2cmeZy+Xm59OXZQinlmYBC6NGiVal+EgdaUkmnlmaBSys
+      OhVXptH/cB0zsTSJzM1vh06tpNisA65+HwCmZhM3XT5AoVGDSXf5e/vD2xBOZEndwKIryxKA
+      K7LZ7PwCGbfClZDdyjqy2SwqleqaC3IsZR23chuWo45Py+u0rAH45W+FW1E+cFfUcSvLX446
+      Pi2vk+prX/va15amOYtTKBT83R99CUVZLXv2HeDonhcYmAoTcvfzv//um5RZdfzff/oJSr2J
+      /W++xvrN2/jh00/hG+3mUiBM24VpVlUm+f6PT3Di1e8wV1jNm2++TXSsi3daz1Ne00BhgW6+
+      vh/8/V9y+NQp4hoH77/6LIcOH0al0/OLtw9x4ugJOtsOUVlewbO/OMC2TWv57lNP4R86xoFL
+      Cnre/znJyAyv7H2fgpIqymym+W1QKBRMndvP33zn55zsPMeqYvjKn3+Dex55nB9/55tMXjjG
+      m4facM/peOeFH1JVpeK1o15WmYM8/bMTyGPH6B6d5rU975JQ6ImeP8CTL5/goV1bUP97+S9/
+      609pm3Ew8d6/8NbFWd78wTO0nemkyK7jJ8+/iiuUYu3KGo688Syv7jvIeEjinRe+x7ETHWTj
+      Xr713F5UejOv/PPfcuxUB4V1m3jvh1/lqFvNtuYaFAoF8VkXLzz3PO+0nmf71jX85NtP09Uz
+      Sjx0loEZC0df/wndvYPImSh/+fUfcX+znt/9s++xa1M9f/FHf0zdrl+jWBngqe//grH2X9Ab
+      LuTo6z9l/c6daBQKXOeP8v9+upcEJmZ6D/HUi+9zX5OO3/kfT7N9dTF/8pW/xWwI8/rBdtKJ
+      BK+8dRi1+xTtIyG+9/2XcaT66A3qefOl5xge9dO4vonWN55l76FOTKVVlBQWzL/XuUSAp/7x
+      Wxw70YZDO8dzxybxd7/F6PAwfdE4P/r6N+m+cJ4VazYzfW4v73dP872nvrH8Z4I1JhNnjh3B
+      4/Pj8XiQlWo2b92FzmRnR3Ml7ukgIF++Twav2839n3+Cf/zqN9l97yZkKYnHF0Sh0XO24yQe
+      3zTvHe/mS7//RaqLTFfV5XN7yUkpLvWfZWTOwu//6j38fM8BDr7yIxSla/B7XKRTSTzTAQA8
+      bjexZIKxoYu4PG727TvAb/7X/86GurKPbEd6LkRgNkosluBsewd1NRbaz0/gcbsJRaJ89je+
+      SOu+FxkbnySdjDIdjJJLx3H5gkSDXhKSilh4FrPVzIG2i1Sop/GGU/Plz8lKpvo6iMfiuANB
+      vL4gsRk3L//4Fbb+ysOY9JeD/u6R0/z+H/wXjh94B69vmlR0Ft+0D384jlajxev1kYmHmY0F
+      GAzCZHc7V/aUDYXlrKsrIplVoUCBhiwJjQ455Gd4oIOJRBH15VZy6Ri6TJAX9vZTVJhl+Owp
+      qhtqef9ED+QyuD1+ArNqgu4uxqbc8+WrNFqioRCWQgttPYPY025GpyPI4QDvdQ9AJgM6HaHZ
+      CGaDCpd3mmjQSzAUxqyIcPhUH0f3vURh84M4zHoAtGoVobkEFpPxqvdjsvswUtVOPrvGxltH
+      23EHIgT9HmaDAYLRKHKBk8ebzbzZeoFkLMhMMIK9SLv8AVDoi6nQBHHHcqj1JuqqnXx4jbaa
+      tdt4/L6NpGNBus8PIAFtb+/lsc8/xpH23g/K0dqoM0YZDUusKLNw4MBhfOH41ZVpLJj1OQps
+      pahiU+w9coaN65tZs+tzuDoPUl1RxOGTJ7EVVXyogSoeaXFw6FyAppUrOPTOO1xyX/tsdlF5
+      NZm5GU6e7kZvLqCr9QQAuWyKjtaDlNS14CwxcOz4BSqqSzDYSmB2gvPjUUrLyti9uY5XXn6J
+      8WkvcjjA8e7RDwpXFqCOTqFylANgq2zkb/7xW/zaQys509rF66/vBaDe6eCdt96lvG4lhsJy
+      /uSrT3JfQwlFZU6KCk0YLQ6Qs0x3HcKdKiDhHWBo5vKie/6LrTz10zaeeHgbCiTq1m4heP4A
+      F4NgtVeTDAxx5vh++txJ6tY00d4/ilMLJ1pPoyosZajjfT586Lym2s6FyQ9+2FDprWzb2Mib
+      b7xEb+8IajlBW/dFWjbWc+jwAJUlJnR2JxsrVBzqHEYVn6FnJEZ5kZq6lnsZ6WmjumkjIz1t
+      HHxjDxHAWlZLoyXCO22DV70XpfXNzAy28257H1t23kdi/DyTQYlCkxaAkG+c471TtKysnn+O
+      pXL98h4DAMwGgxh0KmbjEsp0jGgyh7Oqgkg4QrHNzEw0RVGhGZ97kqSspUCvBlmm0GZhNpLE
+      UahnNpRCRRaDQUMgkqbEqsPlnaG80olO88GJt2AggMlsZDaaxqjKMBPN4Cx3EJ5LQTqJ0WLE
+      6wlQWuHEqFMzEwig1SjRFpiZ9kxTVlqEx+3GVurEbLh6ZcJMMsrElI+CwiI0ZCm0FTIbjqLI
+      SagVEoFwgoqqKuREGN/sHE6nE40KZnxu4jkdZTY9U+5pCouKyUk5LAY1sYwCm/nyN1skFESW
+      QaVWk5SArERRkQ05J+GemgCdhcpSB5lkjClPgNKKShKxCDa7g1wyypjLh8FiR6/MUWDQMBOe
+      w1JYjCITRWWwYtCq5rdBpS+gurKUGa+beE5DiVWHpDIhJ2eZDs1RVlpMJpsjnU6jVsjkclDo
+      sBMKzuKwW5mZjaFW5CgwGfAFIlRUlKIE0okYLs809pJiMikZq0lJdC6DUqUilcqgVcpodCp8
+      /hAVziqSYT/RjIpyh4lERkEqOoPRXkY86GEuq6a6qpx4KMD0bJzKKic69dXf38FpF12nT1O9
+      6QEK5QiS1oLdqCKlUBPyelAaC6ksc5COR0hmVeTk3PIHQBDuJMt6EJw3skkGRqYospsYGBih
+      qMjOrGeEU+eGqawoR3WNtXqvJZdN0X7iCBcGRoAcaZWO4Hg/vaPTFNu1nD0/SoFyjmBCwcDZ
+      U0QkHUU2I4MDlygqcjA8NIDFVkQy5OFYWw+lzkq0/74+c9B1iZBkJOQaxjft5UxnN0qDldEL
+      Zwgkc4yd7+bC0DA5Kcu4N4JFNceZQRepwCgdZwfQ61UMjvnRZaKMuybo6jpLIJYl4R9lYCqE
+      s6IE32g/rae7QK+nv6efkhI7Z9rbUahk5iQdMd8wXYMeyq1qWk+2Y7AVM9Xfg9JcyPi4i8Dk
+      IOcuuigrsTN4aRyjIsH0nIKIe4jzYzNUlRd9un4FyhsxH0/+4BUee2A9Tz75Ax7etY7/8+T3
+      eOjhBym0mD/BIuEKsmMneeZUlBWxC3TPRtjz+kmKpEucHJni+//wLDbrLCd7xugcmGF90wqK
+      HXr+/snv8dhjD/PdbzzJPbt38Y2/fpIdDz1IgakQveZy3d6+w/yiY5q2t/fgHehkrrSGYtnH
+      v+27wMa1DWjSw7x62Iczd57vvtaHIzHEd97qItR/DLNzLaXpMf7wH17CkZgiUraSvf/yfR77
+      zQf47rdfpKVlHaUVJRx44Z8Zlx2sbtDzP3/vr6hbX8s3v/p1tGaJYU+GN/YdYve9W3j1x9+m
+      uKGJnzz/GmNn9jIeVvLueyfo6mhne72R59/u4J1DJ1hrCbKnbZhDbb3s3t6CvdBy0wEQ1wMs
+      g0wqgUJvpa66Eo3647/kCqUKW6EVo8WKVq0kG51GaXXSUFeGzz3DI49s5uC7Zyhp3MkDq3S8
+      /MYBpF/eoc0mCElGVtbVYNF9UHdNy07cZ95FXVaHUaHEbLVSUruFJ7aV8eIr+zAVWjGZrOg1
+      KpwlRjqmsqwwK1Eo1VisVjRqNfdvruHomUvojCaMBgO2kjq+9FsP8rN/+ymRDM11lpgAAAMa
+      SURBVIACk9mCQadmbVMV7x1qo7quHoBkNITeVkZDjRN/OE5T0ypS4SDa4tVoZvuJZWVQamla
+      2YDX50WpACknEY8FsRRVUVtdwVIQPcCtIGXoOXOKOaWJOfdF4sYKGqxpjp0bY1VjI9pPEAIp
+      GWEma2ZViR5D7VZMwXP0unL8+ud2oTLWY5HGcFTW4nG5Ka2qZ31TDSPnOpiIKtEl3ExGjdy/
+      2sq+I11Ur2rGpL38I4FCbSYw3EHjjl/Bro4x7p3FpFczNDxJUWUNaxrKiKWN1JUbsJQ4UWvN
+      lBXbKLMo8c4kKasowbhiI5rpQZp33g+REOs2ruTk0Q60lmK2bmkhHphixOWnqKwco6kYOSXR
+      sr6GUqeTsoZ7KIxdpG3Qx6/eu5Y33jnCts98FptBTcu6eqZCKhrtMmeG/fz6b/0OJZKP7okk
+      v/WF3yExfoaeiTDrm+puugcQB8FCXhO7QEJeE7tAwnW99dy/oG/cwok9z6EvXUl05CQ/+Onb
+      GByVlDvMn7i8rkO/4K+/9SNKKyt548XnOdrWSUOxmv/1jWcYGhxn45YN7HnuGaIxF8+80Ul6
+      6ARz1iJe/vG/EsoZaKj+6Bn5m3VrhxwKn2ru0YvUSeCeGKUuleHVH77KH3zru5Te4H7Dpi3b
+      yeztoTQxSKRoM49bL7LnUCveaI6C8SESEkyOXEJvVRCanOLEWACrf5a6B77IY5uW5qD3l4ld
+      IOG65FyW0UujZLIpxkfHaKgv5fjx00z5QjdVrsNZx+xoL10X3TRWl6EhQTSrQ537YGDFxh33
+      0N12BmdDIxe72hkanbrZzbkmcRAsXJd34iJjvjiVJUY8/ihr1jYzfKGXioY1FFsNn7xAKc3I
+      1DR1K5xMXeonlDXQXGNnclZCmQhgK68lGvBgMOrIqQsITFyismkN3qELKK0V1FYWLfk2igAI
+      eU3sAgl5TQRAyGsiAEJeEwEQ8poIgJDXRACEvCYCIOQ1EQAhr4kACHlNBEDIayIAQl4TARDy
+      mgiAkNdEAIS8JgIg5DURACGviQAIeU0EQMhrIgBCXhMBEPLa/wcwxCftngI6jwAAAABJRU5E
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
